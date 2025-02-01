@@ -1,0 +1,61 @@
+
+@media screen and (orientation: portrait) {
+    body {
+       background-color: lightblue;
+    }
+}
+@media screen and (orientation: landscape) {
+body{
+    background-image: url("HomeThumbnail.png");
+    
+    background-size: auto 100vh;
+    background-repeat:no-repeat;
+    background-position: top right;
+    background-color: rgb(255, 201, 14);
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    /*background-color: rgb(227, 164, 19);*/
+    place-items: center;
+}
+}
+h1{  
+    color: black;
+    width:200px;
+    margin-left: calc(100vw - 53vh);
+    margin-top:41vh;
+    position: 100vw;
+    
+    background-size: 100vw;
+    
+
+    font-size: 18pt;
+    
+    text-align: left;
+}
+#cs_button{
+    color: black;
+    width:200px;
+    margin-left: calc(100vw - 85vh);
+    margin-top:11vh;
+    position: 100vw;
+    
+    background-size: 100vw;
+    
+
+    font-size: 12pt;
+    
+    text-align: left;
+}
+p{
+   
+    font-size:12pt;
+    color: black;
+    text-align: left;
+    text-indent: 12pt;
+}
+div{
+    padding: 10px;
+    height: 200px;
+}
+
+
