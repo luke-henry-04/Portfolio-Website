@@ -1,7 +1,16 @@
 
 @media screen and (orientation: portrait) {
     body {
-       background-color: lightblue;
+        background-image: url("HomeThumbnail.png");
+        
+        background-size: auto 100vw;
+        background-repeat:no-repeat;
+        background-position: top right;
+        background-color: rgb(255, 201, 14);
+        margin: 0;
+        font-family: Verdana, sans-serif;
+        /*background-color: rgb(227, 164, 19);*/
+        place-items: right;
     }
 }
 @media screen and (orientation: landscape) {
@@ -15,13 +24,13 @@ body{
     margin: 0;
     font-family: Verdana, sans-serif;
     /*background-color: rgb(227, 164, 19);*/
-    place-items: center;
+    place-items: right;
 }
 }
 h1{  
     color: black;
     width:200px;
-    margin-left: calc(100vw - 53vh);
+    margin-left: calc(100vw - 42vh);
     margin-top:41vh;
     position: 100vw;
     
