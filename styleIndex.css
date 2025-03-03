@@ -1,12 +1,12 @@
 
 @media screen and (orientation: portrait) {
     body {
-        background-image: url("HomeThumbnail.png");
+        background-image: url("./images/bg_index_draft_3.png");
         
         background-size: auto 100vw;
         background-repeat:no-repeat;
         background-position: top right;
-        background-color: rgb(255, 201, 14);
+        background-color: #FCF8DA;
         margin: 0;
         font-family: Verdana, sans-serif;
         /*background-color: rgb(227, 164, 19);*/
@@ -15,46 +15,104 @@
 }
 @media screen and (orientation: landscape) {
 body{
-    background-image: url("HomeThumbnail.png");
+    background-image: url("./images/bg_index_draft_3.png");
     
     background-size: auto 100vh;
     background-repeat:no-repeat;
-    background-position: top right;
-    background-color: rgb(255, 201, 14);
+    background-position: top center;
+    background-color: #FCF8DA
+    ;
     margin: 0;
     font-family: Verdana, sans-serif;
     /*background-color: rgb(227, 164, 19);*/
     place-items: right;
 }
 }
-h1{  
-    color: black;
-    width:200px;
-    margin-left: calc(100vw - 42vh);
-    margin-top:41vh;
-    position: 100vw;
+#luke_henry{  
+    
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+
+    color: #FCF8DA;
+    
+    margin-left: calc(50vw - 5vh);
+    margin-top:0vh;
+    
+    line-height: 260%;
     
     background-size: 100vw;
-    
+    position: absolute;
 
-    font-size: 18pt;
+    font-size: 32pt;
     
-    text-align: left;
+    text-align: right;
 }
+
+
 #cs_button{
-    color: black;
-    width:200px;
-    margin-left: calc(100vw - 85vh);
-    margin-top:11vh;
-    position: 100vw;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+
+    text-decoration:none;
+    margin-left: calc(50vw - 50vh);
+    margin-top:80vh;
     
+    position:absolute;
     background-size: 100vw;
     
 
-    font-size: 12pt;
+    font-size: 32pt;
     
     text-align: left;
 }
+
+#cs_button:visited,   
+#cs_button:active  
+{
+    color :#fcf8da;
+    
+}
+
+#cs_button:hover,
+#cs_button:focus{
+    color:red;
+} 
+
+
+#art_button{
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+
+    text-decoration:none;
+    margin-left: calc(50vw - 20vh);
+    margin-top:80vh;
+    
+    position:absolute;
+    background-size: 100vw;
+    
+
+    font-size: 32pt;
+    
+    text-align: left;
+}
+
+#art_button:visited,   
+#art_button:active  
+{
+    color :#fcf8da;
+    
+}
+
+#art_button:hover,
+#art_button:focus{
+    color:red;
+} 
 p{
    
     font-size:12pt;
@@ -62,9 +120,6 @@ p{
     text-align: left;
     text-indent: 12pt;
 }
-div{
-    padding: 10px;
-    height: 200px;
-}
+
 
 
