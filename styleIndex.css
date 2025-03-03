@@ -28,24 +28,41 @@ body{
     place-items: right;
 }
 }
-#luke_henry{  
+
+#luke{
+    position:absolute;
+
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+
+    color: #2b2b2b;
+
+    line-height: 100%;
+    letter-spacing: 1vh;
+    margin-left: calc(50vw + 23vh);
+    margin-top:8vh;
+
+    font-size: 16vh;
+}
+#henry{  
     
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
 
-    color: #FCF8DA;
+    color: #2b2b2b;
     
-    margin-left: calc(50vw - 5vh);
-    margin-top:0vh;
+    margin-left: calc(50vw + 2vh);
+    margin-top:42vh;
     
-    line-height: 260%;
     
-    background-size: 100vw;
+   
     position: absolute;
 
-    font-size: 32pt;
+    font-size: 13vh;
     
     text-align: right;
 }
@@ -58,16 +75,16 @@ body{
     transform: rotate(-45deg);
 
     text-decoration:none;
-    margin-left: calc(50vw - 50vh);
-    margin-top:80vh;
+    margin-left: calc(50vw - 46vh);
+    margin-top:77vh;
     
     position:absolute;
-    background-size: 100vw;
+    
     
 
-    font-size: 32pt;
+    font-size: 6vh;
     
-    text-align: left;
+    text-align: right;
 }
 
 #cs_button:visited,   
@@ -79,7 +96,7 @@ body{
 
 #cs_button:hover,
 #cs_button:focus{
-    color:red;
+    color:#c94144;
 } 
 
 
@@ -90,16 +107,16 @@ body{
     transform: rotate(-45deg);
 
     text-decoration:none;
-    margin-left: calc(50vw - 20vh);
-    margin-top:80vh;
+    margin-left: calc(50vw - 25vh);
+    margin-top:85vh;
     
     position:absolute;
-    background-size: 100vw;
+    
     
 
-    font-size: 32pt;
+    font-size: 6vh;
     
-    text-align: left;
+    text-align: right;
 }
 
 #art_button:visited,   
@@ -111,7 +128,7 @@ body{
 
 #art_button:hover,
 #art_button:focus{
-    color:red;
+    color:#ebd223;
 } 
 p{
    
