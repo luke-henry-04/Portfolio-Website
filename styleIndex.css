@@ -42,7 +42,7 @@ body{
     line-height: 100%;
     letter-spacing: 1vh;
     margin-left: calc(50vw + 23vh);
-    margin-top:8vh;
+    margin-top:9vh;
 
     font-size: 16vh;
 }
@@ -55,9 +55,9 @@ body{
 
     color: #2b2b2b;
     
-    margin-left: calc(50vw + 2vh);
-    margin-top:42vh;
-    
+    margin-left: calc(50vw + 3.5vh);
+    margin-top:41vh;
+    letter-spacing: -1vh;
     
    
     position: absolute;

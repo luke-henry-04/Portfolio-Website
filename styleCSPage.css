@@ -1,0 +1,32 @@
+
+@media screen and (orientation: portrait) {
+    body {
+        background-image: url("./images/bg_cspage_header_draft_4.png");
+        
+        background-size: auto 85vw;
+        background-repeat:no-repeat;
+        background-position: top right;
+        background-color: #FCF8DA;
+        margin: 0;
+        font-family: Verdana, sans-serif;
+        /*background-color: rgb(227, 164, 19);*/
+        place-items: right;
+    }
+}
+@media screen and (orientation: landscape) {
+body{
+    background-image: url("./images/bg_cspage_header_draft_4.png");
+    
+    background-size: auto 85vh;
+    background-repeat:no-repeat;
+    background-position: top left;
+    background-color: #FCF8DA
+    ;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    /*background-color: rgb(227, 164, 19);*/
+    place-items: right;
+}
+}
+
+
