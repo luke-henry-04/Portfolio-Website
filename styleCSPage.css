@@ -1,7 +1,7 @@
 
 @media screen and (orientation: portrait) {
     body {
-        background-image: url("./images/bg_cspage_header_draft_4.png");
+        background-image: url("./images/bg_cspage_header_draft_5.png");
         
         background-size: auto 85vw;
         background-repeat:no-repeat;
@@ -15,7 +15,7 @@
 }
 @media screen and (orientation: landscape) {
 body{
-    background-image: url("./images/bg_cspage_header_draft_4.png");
+    background-image: url("./images/bg_cspage_header_draft_5.png");
     
     background-size: auto 85vh;
     background-repeat:no-repeat;
@@ -26,7 +26,70 @@ body{
     font-family: Verdana, sans-serif;
     /*background-color: rgb(227, 164, 19);*/
     place-items: right;
+    
 }
+
+#Computer{
+    -webkit-transform: rotate(-31deg);
+    -moz-transform: rotate(-31deg);
+    -o-transform: rotate(-31deg);
+    transform: rotate(-31deg);
+
+    text-decoration:none;
+    margin-left: calc(17vh);
+    margin-top:6vh;
+    color: #2b2b2b;
+    position:absolute;
+    font-size: 6vh;
+    
+    text-align: right;
+
+}
+
+#Science{
+   
+    -webkit-transform: rotate(-31deg);
+    -moz-transform: rotate(-31deg);
+    -o-transform: rotate(-31deg);
+    transform: rotate(-31deg);
+    text-decoration:none;
+    margin-left: calc(34vh);
+    margin-top:4vh;
+    color: #2b2b2b;
+    position:absolute;
+    font-size: 6vh;
+    
+    text-align: right;
+}
+
+#Projects{
+    -webkit-transform: rotate(-31deg);
+    -moz-transform: rotate(-31deg);
+    -o-transform: rotate(-31deg);
+    transform: rotate(5.25deg);
+    text-decoration:none;
+    margin-left: calc(35vh);
+    margin-top:16vh;
+    color:#fcf8da;
+    position:absolute;
+    font-size: 5.5vh;
+    
+    text-align: right;
+}
+
+#Degree{
+    position:absolute;  -webkit-transform: rotate(-31deg);
+    -moz-transform: rotate(-31deg);
+    -o-transform: rotate(-31deg);
+    transform: rotate(5.25deg);
+    text-decoration:none;
+    margin-left: calc(65vh);
+    margin-top:25vh;
+    color:#2b2b2b;
+    position:absolute;
+    font-size: 2.25vh;
+    
+    text-align: right;
 }
 
 
