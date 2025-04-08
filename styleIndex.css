@@ -1,7 +1,7 @@
 
 @media screen and (orientation: portrait) {
     body {
-        background-image: url("./images/bg_index_draft_3.png");
+        background-image: url("./images/background_headers/bg_index_draft_3.png");
         
         background-size: auto 100vw;
         background-repeat:no-repeat;
@@ -15,7 +15,7 @@
 }
 @media screen and (orientation: landscape) {
 body{
-    background-image: url("./images/bg_index_draft_3.png");
+    background-image: url("./images/background_headers/bg_index_draft_3.png");
     
     background-size: auto 100vh;
     background-repeat:no-repeat;
@@ -88,7 +88,8 @@ body{
 }
 
 #cs_button:visited,   
-#cs_button:active  
+#cs_button:active,
+#cs_button:link
 {
     color :#fcf8da;
     
@@ -120,7 +121,8 @@ body{
 }
 
 #art_button:visited,   
-#art_button:active  
+#art_button:active,
+#art_button:link 
 {
     color :#fcf8da;
     
@@ -130,6 +132,8 @@ body{
 #art_button:focus{
     color:#ebd223;
 } 
+
+
 p{
    
     font-size:12pt;

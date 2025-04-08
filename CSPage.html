@@ -9,10 +9,119 @@
     <h1 id="Computer">computer</h1>
     <h1 id="Science">science</h1>
     <h1 id="Projects">projects</h1>
-
     <strong id="Degree">BS Math-Computer Science, UCSD (2026)</strong>
 
 
+    <div class="grid">
+        <img src="images/background_headers/bg_index_draft_3.png">
+        <div class="project">
+            <h2 class="project_title">Personal Portfolio Website</h2>
+            <h4 class="project_date">Feb 2025 - Present</h4>
+            <h4 class="project_languages">HTML, CSS</h4>
+            <strong class="project_description">
+                I designed this website using html and css, hosted via Github Pages. 
+                The website hosts my Computer Science and Visual Arts portfolios, 
+                and is responsive to different screen resolutions and orientations. 
+                It makes use of CSS transforms and viewport-percentage coordinates to 
+                position and size decorative text within the background images. 
+                The repository is public, availible at {LINK}.
+            </strong>
+
+        </div>
+
+        <img src="images/background_headers/bg_index_draft_3.png">
+        <div class="project">
+            <h2 class="project_title">Low Level Development - Personal Study</h2>
+            <h4 class="project_date">March 2024 - Present</h4>
+            <h4 class="project_languages">Intel x86, C</h4>
+            <strong class="project_description">
+                I started a low level development project in my spare time to
+                learn more about how computers function. Using Intel's x86 software 
+                development manual (SDM) as a reference, the project began with writing 
+                16-bit real mode programs directly in the MBR partition on a hard drive.  
+                Initial programs involved writing text to the screen from keyboard input 
+                and coloring the pixels in VGA graphics mode. 
+                I then created a simple "bootloader" program that loads 
+                larger files from the rest of the drive into memory and runs them. 
+                Future plans for the project involve creating a proper bootloader 
+                that also switches the CPU into protected mode and transfers control to an OS. 
+                I also intend to develop a simple OS for the sake of understanding drivers, 
+                memory paging, file organization, etc.
+                 
+                <p style="color:purple">(learn more...)</p>
+                
+                The project's Github repository is availible {HERE}
+            </strong>
+
+        </div>
+
+        <img src="images/background_headers/bg_index_draft_3.png">
+        <div class="project">
+            <h2 class="project_title">Raytracer</h2>
+            <h4 class="project_date">March 2025</h4>
+            <h4 class="project_languages">C++, OpenGL</h4>
+            <strong class="project_description">
+                As part of my Computer Graphics courses, I implemented a CPU raytracer in C++, based on starter code provided by my professor. I implemented the code to start rays going through each pixel (at random positions within the pixel for anti-ailisaing), detect intersections with triangle and sphere geometries in the scene, and calculate the new directions and the diffuse/ambient/specular lighting of rays along multiple bounces. 
+                <p style="color:purple">(learn more...)</p>
+            </strong>
+
+        </div>
+
+        <img src="images/background_headers/bg_index_draft_3.png">
+        <div class="project">
+            <h2 class="project_title">Shaders and Computer Graphics</h2>
+            <h4 class="project_date">Jan 2025 - March 2025</h4>
+            <h4 class="project_languages">C++, OpenGL, GLSL</h4>
+            <strong class="project_description">
+                I wrote shaders that calculate Phong shading (diffuse, ambient, and specular) in GLSL, as well as a Mandelbrot fragment shader that renders the mandelbrot fractal on a sqaure. I also wrote a matrix stack program in C++ using OpenGL that uses a tree structure to organize scene objects and geometries, then calculates model-view and perspective matrices along a traversal of that tree. 
+                <p style="color:purple">(learn more...)</p>
+            </strong>
+
+        </div>
+
+        <img src="images/background_headers/bg_index_draft_3.png">
+        <div class="project">
+            <h2 class="project_title">Human Powered Submarine Club - Electronics</h2>
+            <h4 class="project_date">Nov 2024 - Present</h4>
+            <h4 class="project_languages">Arduino (C++), CAD</h4>
+            <strong class="project_description">
+                I joined UCSD's Human Powered Submarine club's electronic team. I impemented a sensor to measure and display the RPM of the sub's propellor using an arduino with a Hall effect sensor and a 3D-printed cuff containing magnets of alternating polarity. The hall effect sensor measures the magnetic strength of the magnet cuff as it's turning, and is able to detect each time a magnet passes by it. Using this, the arduino then calculates an RPM and sends that to an LCD screen which displays information on the sub's sensors. Because the Hall effect sensor needs a fast response time, I implemented a scheduler in the arduino that allows the RPM sensor to do a calculation using the whole CPU for a number of frames, then allows the other sensors to do their respective jobs for a number of frames, alternating. I also designed and 3D-printed a mount for the sensor using CAD. 
+                <br><br>
+                The files can be found at this Github repository, {LINK}
+            </strong>
+
+        </div>
+
+        <img src="images/background_headers/bg_index_draft_3.png">
+        <div class="project">
+            <h2 class="project_title">Blender Scripting - SVG File Generation</h2>
+            <h4 class="project_date">Nov 2024</h4>
+            <h4 class="project_languages">Python Blender API, Processing 4 (java), JSON</h4>
+            <strong class="project_description">
+                I made a python script in Blender to generate and export a JSON file with data about a 3D model's UV map.
+                I parsed the data using a Processing 4 (java) script that generates an SVG image of the triangles in the UV map with each vertex labeled inside each triangle. I used that SVG file to laser cut the model out of plywood and assemble it for a sculpture project. 
+                <p style="color:purple">(learn more...)</p>
+            </strong>
+
+        </div>
+
+        <img src="images/background_headers/bg_index_draft_3.png">
+        <div class="project">
+            <h2 class="project_title">Game Development</h2>
+            <h4 class="project_date">most recent - Oct 2024</h4>
+            <h4 class="project_languages">Unity, C#, HLSL</h4>
+            <strong class="project_description">
+                Game development is what initially sparked my interest in computer science, and I've participated in many game jams (events where people create games/prototypes over a short period of time). Most of my games are from high school or earlier, but I more recently made a small game for the Ludum Dare 56 game jam in October 2024 with the theme "Tiny Creatures". It was made with Unity game engine, and programmed in C#.
+                <br><br>
+                The game is hosted on itch.io HERE, and the github repository is availible HERE. 
+                <br>
+                The rest of my published game development projects are availible on my itch.io page HERE
+                <br><br><br>
+            </strong>
+
+        </div>
+
+    </div>
 
 </body>
 </html>
