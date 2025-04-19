@@ -20,12 +20,11 @@ body{
     background-size: 15vw auto;
     background-repeat:repeat-y;
     background-position: top left, top right;
-    background-color: #FCF8DA
-    ;
+    background-color: #FCF8DA;
     margin: 0;
     font-family: Verdana, sans-serif;
     /*background-color: rgb(227, 164, 19);*/
-    place-items: right;
+   
 }
 
 
@@ -34,6 +33,7 @@ body{
     margin-left: 20vw;
     margin-right: 20vw;
     margin-top: 10vh;
+ 
 
 }
 
@@ -55,7 +55,36 @@ body{
 
 .project_description{
     font-size: 2.5vh;
+    
     margin: 0;
     
 }
+
+.caption{
+    font-size:2.5vh;
+    display:inline-block;
+    margin:0;
+    width:100%;
+    text-align: center;
+}
+
+img{
+    display:block;
+    text-align:center;
+    place-self: center;
+    width: 60vh;
+    padding-top:10px;
+}
+
+.back{
+    font-size: 2.5vh;
+    display: inline-block;
+    width:100%;
+    text-align: right;
+    color:purple;
+    text-decoration:underline;
+    margin-bottom: 20px;
+}
+
+
 }
