@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Raytracer</title>
+    <title>Low Level Development</title>
     <link rel="stylesheet" href="styleProjectPage.css">
 </head>
 
@@ -16,24 +16,25 @@
             development manual (SDM) as a reference, the project began with writing 
             16-bit real mode programs directly in the MBR partition on a hard drive.  
             Initial programs involved writing text to the screen from keyboard input 
-            and coloring the pixels in VGA graphics mode. 
+            and coloring the pixels in VGA graphics mode. They were written in assembly and compiled to machine code using the SDM as a reference.  
+            <br><br>
             I then created a simple "bootloader" program that loads 
             larger files from the rest of the drive into memory and runs them. 
             Future plans for the project involve creating a proper bootloader 
-            that also switches the CPU into protected mode and transfers control to an OS. 
-            I also intend to develop a simple OS for the sake of understanding drivers, 
+            that also switches the CPU into protected mode and transfers control to an operating system. 
+            I also intend to develop a simple operating system for the sake of better understanding scheduling, drivers, 
             memory paging, file organization, etc.
-             
-            <a href="./CS_Project_Pages/LowLevelDev.html" style="color:purple">(learn more...)</a>
-            
-            The project's Github repository is availible {HERE}
+            <br><br>
+           <p>The project's Github repository is availible <a href="https://github.com/luke-henry-04/OSDevProject">here.</a></p>
+           <br><br>
         </strong>
 
     
 
-        <img src="../images/ProjectPages/Raytracer/normal1.png">
-        <img src="../images/ProjectPages/Raytracer/normal2.png">
-        <strong class="caption">(normal shading)</strong>
+        <img src="../images/ProjectPages/LowLevelDev/HelloWorld.jpg">
+        <strong class="caption">(Hello World 16-bit MBR program)</strong>
+        <img src="../images/ProjectPages/LowLevelDev/shoebill.jpg">
+        <strong class="caption">(7.3 KB ASCII art program loaded into memory from bootloader)</strong>
         <br><br>
 
 

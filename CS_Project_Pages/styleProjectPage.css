@@ -15,7 +15,7 @@
 }
 @media screen and (orientation: landscape) {
 body{
-    background-image: url("../images/background_headers/bg_projectpage_draft1.png"),url("../images/background_headers/bg_projectpage_draft1.png");
+    background-image: url("../images/background_headers/bg_projectpage_draft2.png"),url("../images/background_headers/bg_projectpage_draft1.png");
     
     background-size: 15vw auto;
     background-repeat:repeat-y;
@@ -85,6 +85,10 @@ img{
     text-decoration:underline;
     margin-bottom: 20px;
 }
+
+a{
+        color:purple;
+    }
 
 
 }

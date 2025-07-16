@@ -279,4 +279,8 @@
         margin-bottom: 10vh;
         margin-right:30vh;
     }
+
+    a{
+        color:purple;
+    }
 }
