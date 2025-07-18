@@ -161,6 +161,7 @@
         font-family: Verdana, sans-serif;
         /*background-color: rgb(227, 164, 19);*/
         place-items: left;
+        color:#2b2b2b;
         
     }
 
@@ -225,7 +226,7 @@
         text-decoration:none;
         left: calc(65vh);
         top:25vh;
-        color:#2b2b2b;
+        color:#611800;
     
         font-size: 2.25vh;
         
@@ -244,27 +245,29 @@
     }
 
     .project{
-        line-height: 5vh;
+        line-height: 4vh;
     }
 
     .project_title{
-        font-size: 4.5vh;
+        font-size: 4.0vh;
         margin: 0;
         padding-bottom: 1vh;
     }
 
     .project_date{
         font-size: 2.5vh;
+        color:#611800;
         margin:0;
     }
     .project_languages{
         font-size: 2.5vh;
+        color:#611800;
         margin: 0;
         padding-bottom: 1vh;
     }
 
     .project_description{
-        font-size: 2.5vh;
+        font-size: 2.25vh;
         margin: 0;
         
     }
@@ -273,7 +276,7 @@
         font-size: 2.5vh;
         display: block;
         text-align: right;
-        color:purple;
+        color:#ca060a;
         text-decoration:underline;
         margin-top:10vh;
         margin-bottom: 10vh;
@@ -281,6 +284,11 @@
     }
 
     a{
-        color:purple;
+        color:#c6080b;
     }
+
+    hr{
+        border-top:1vh solid #2b2b2b;
+    }
+    
 }
