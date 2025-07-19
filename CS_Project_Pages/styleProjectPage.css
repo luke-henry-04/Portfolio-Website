@@ -46,11 +46,13 @@ body{
 .project_date{
     font-size: 2.5vh;
     margin:0;
+    color:#611800;
 }
 .project_languages{
     font-size: 2.5vh;
     margin: 0;
     padding-bottom: 5vh;
+    color:#611800;
 }
 
 .project_description{
@@ -66,6 +68,7 @@ body{
     margin:0;
     width:100%;
     text-align: center;
+    color:#611800;
 }
 
 img{
@@ -81,14 +84,14 @@ img{
     display: inline-block;
     width:100%;
     text-align: right;
-    color:purple;
+    color:#c6080b;
     text-decoration:underline;
     margin-bottom: 20px;
 }
 
 a{
-        color:purple;
-    }
+        color:#c6080b;
+}
 
 
 }
