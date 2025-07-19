@@ -89,6 +89,10 @@ img{
     margin-bottom: 20px;
 }
 
+.large{
+    width: calc(min(100vh, 60vw))
+}
+
 a{
         color:#c6080b;
 }
