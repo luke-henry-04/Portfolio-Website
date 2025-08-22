@@ -1,12 +1,12 @@
 @media screen and (orientation: landscape) {
     body{
-        height: 100lvh;
-        width:100lvw;
+        height: 100svh;
+        width:100svw;
         overflow-x: hidden;
         overflow-y:hidden;
         background-image: url("./images/background_headers/Final/Index_Landscape.svg");
         
-        background-size: auto 100lvh;
+        background-size: auto 100svh;
         background-repeat:no-repeat;
         background-position: center top;
         background-color: #FCF8DA
@@ -26,12 +26,12 @@
 
         color: #2b2b2b;
 
-        line-height: 17lvh;
-        letter-spacing: 1lvh;
-        margin-left: calc(50lvw + 24lvh);
-        margin-top:6.6lvh;
+        line-height: 17svh;
+        letter-spacing: 1svh;
+        margin-left: calc(50svw + 24svh);
+        margin-top:6.6svh;
 
-        font-size: 16lvh;
+        font-size: 16svh;
     }
     #henry{  
         
@@ -42,14 +42,14 @@
 
         color: #2b2b2b;
         
-        margin-left: calc(50lvw + 3.5lvh);
-        margin-top:43.5lvh;
-        letter-spacing: 2lvh;
+        margin-left: calc(50svw + 3.5svh);
+        margin-top:43.5svh;
+        letter-spacing: 2svh;
         
     
         position: absolute;
 
-        font-size: 9.25lvh;
+        font-size: 9.25svh;
         
         text-align: right;
     }
@@ -62,14 +62,14 @@
         transform: rotate(-45deg);
 
         text-decoration:none;
-        margin-left: calc(50lvw - 39lvh);
-        margin-top:74lvh;
+        margin-left: calc(50svw - 39svh);
+        margin-top:74svh;
         
         position:absolute;
         
         
 
-        font-size: 5.5lvh;
+        font-size: 5.5svh;
         
         text-align: right;
     }
@@ -95,14 +95,14 @@
         transform: rotate(-45deg);
 
         text-decoration:none;
-        margin-left: calc(50lvw - 25lvh);
-        margin-top:85lvh;
+        margin-left: calc(50svw - 25svh);
+        margin-top:85svh;
         
         position:absolute;
         
         
 
-        font-size: 5.5lvh;
+        font-size: 5.5svh;
         
         text-align: right;
     }
@@ -133,11 +133,11 @@
 
 @media screen and (orientation: portrait) {
     body{
-        height: 100lvh;
-        width:100lvw;
+        height: 100svh;
+        width:100svw;
         background-image: url("./images/background_headers/Final/Index_Portrait.svg");
 
-        background-size: 100lvw auto;
+        background-size: 100svw auto;
         background-repeat:no-repeat;
         background-position: left center;
         background-color: #FCF8DA
@@ -157,12 +157,12 @@
 
         color: #2b2b2b;
 
-        line-height: 13lvw;
-        letter-spacing: 0.75lvw;
-        margin-left: 68.75lvw;
-        margin-top:calc(50lvh - 23.5lvw);
+        line-height: 13svw;
+        letter-spacing: 0.75svw;
+        margin-left: 68.75svw;
+        margin-top:calc(50svh - 23.5svw);
 
-        font-size: 12lvw;
+        font-size: 12svw;
     }
     #henry{  
         
@@ -173,15 +173,15 @@
 
         color: #2b2b2b;
         
-        margin-left: 53lvw;
-        margin-top:calc(50lvh + 5.5lvw);
+        margin-left: 53svw;
+        margin-top:calc(50svh + 5.5svw);
 
-        letter-spacing: 1.8lvw;
+        letter-spacing: 1.8svw;
         
     
         position: absolute;
 
-        font-size:  7lvw;
+        font-size:  7svw;
         
         text-align: right;
     }
@@ -194,14 +194,14 @@
         transform: rotate(-45deg);
 
         text-decoration:none;
-        margin-left: 18lvw;
-        margin-top: calc(50lvh + 28lvw);
+        margin-left: 18svw;
+        margin-top: calc(50svh + 28svw);
         
         position:absolute;
         
         
 
-        font-size: 4.75lvw;
+        font-size: 4.75svw;
         
         text-align: right;
     }
@@ -227,12 +227,12 @@
         transform: rotate(-45deg);
 
         text-decoration:none;
-        margin-left: 30lvw;
-        margin-top: calc(50lvh + 36lvw);
+        margin-left: 30svw;
+        margin-top: calc(50svh + 36svw);
         
         position:absolute;
         
-        font-size: 4.75lvw;
+        font-size: 4.75svw;
         
         text-align: right;
     }
