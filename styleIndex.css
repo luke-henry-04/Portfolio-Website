@@ -221,14 +221,15 @@
 
 
     #art_button{
+        
         -webkit-transform: rotate(-45deg);
         -moz-transform: rotate(-45deg);
         -o-transform: rotate(-45deg);
-        transform: rotate(-45deg);
-
+        transform: translate(-50%,-50%) rotate(-45deg);
+        
         text-decoration:none;
-        left: 30svw;
-        top: calc(50svh + 36svw);
+        left: 40svw;
+        top: calc(50svh + 41svw);
         
         position:absolute;
         
