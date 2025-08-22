@@ -19,34 +19,34 @@
     #luke{
         position:absolute;
 
-        -webkit-transform: rotate(45deg);
-        -moz-transform: rotate(45deg);
-        -o-transform: rotate(45deg);
-        transform: rotate(45deg);
+        -webkit-transform: translate(-50%,-50%) rotate(45deg);
+        -moz-transform: translate(-50%,-50%) rotate(45deg);
+        -o-transform: translate(-50%,-50%) rotate(45deg);
+        transform: translate(-50%,-50%) rotate(45deg);
 
         color: #2b2b2b;
 
         line-height: 17svh;
         letter-spacing: 1svh;
-        margin-left: calc(50svw + 24svh);
-        margin-top:6.6svh;
-
+        left: calc(50svw + 36.5svh);
+        top: 23.5svh;
+        margin:0;
         font-size: 16svh;
     }
     #henry{  
         
-        -webkit-transform: rotate(45deg);
-        -moz-transform: rotate(45deg);
-        -o-transform: rotate(45deg);
-        transform: rotate(45deg);
+        -webkit-transform: translate(-50%,-50%) rotate(45deg);
+        -moz-transform: translate(-50%,-50%) rotate(45deg);
+        -o-transform: translate(-50%,-50%) rotate(45deg);
+        transform: translate(-50%,-50%) rotate(45deg);
 
         color: #2b2b2b;
         
-        margin-left: calc(50svw + 3.5svh);
-        margin-top:43.5svh;
+        left: calc(50svw + 26.5svh);
+        top:49svh;
         letter-spacing: 2svh;
         
-    
+        margin:0;
         position: absolute;
 
         font-size: 9.25svh;
@@ -56,19 +56,19 @@
 
 
     #cs_button{
-        -webkit-transform: rotate(-45deg);
-        -moz-transform: rotate(-45deg);
-        -o-transform: rotate(-45deg);
-        transform: rotate(-45deg);
+        -webkit-transform: translate(-50%,-50%) rotate(-45deg);
+        -moz-transform: translate(-50%,-50%) rotate(-45deg);
+        -o-transform: translate(-50%,-50%) rotate(-45deg);
+        transform: translate(-50%,-50%) rotate(-45deg);
 
         text-decoration:none;
-        margin-left: calc(50svw - 39svh);
-        margin-top:74svh;
+        left: calc(50svw - 23.5svh);
+        top:77.5svh;
         
         position:absolute;
         
         
-
+        margin:0;
         font-size: 5.5svh;
         
         text-align: right;
@@ -89,19 +89,19 @@
 
 
     #art_button{
-        -webkit-transform: rotate(-45deg);
-        -moz-transform: rotate(-45deg);
-        -o-transform: rotate(-45deg);
-        transform: rotate(-45deg);
+        -webkit-transform: translate(-50%,-50%) rotate(-45deg);
+        -moz-transform: translate(-50%,-50%) rotate(-45deg);
+        -o-transform: translate(-50%,-50%) rotate(-45deg);
+        transform: translate(-50%,-50%) rotate(-45deg);
 
         text-decoration:none;
-        margin-left: calc(50svw - 25svh);
-        margin-top:85svh;
+        left: calc(50svw - 10svh);
+        top:88svh;
         
         position:absolute;
         
         
-
+        margin:0;
         font-size: 5.5svh;
         
         text-align: right;
