@@ -6,7 +6,7 @@
         overflow-y:hidden;
         background-image: url("./images/background_headers/Final/Index_Landscape.svg");
         
-        background-size: auto 100vh;
+        background-size: auto 100dvh;
         background-repeat:no-repeat;
         background-position: center top;
         background-color: #FCF8DA
@@ -26,12 +26,12 @@
 
         color: #2b2b2b;
 
-        line-height: 17vh;
-        letter-spacing: 1vh;
-        margin-left: calc(50vw + 24vh);
-        margin-top:6.6vh;
+        line-height: 17dvh;
+        letter-spacing: 1dvh;
+        margin-left: calc(50dvw + 24dvh);
+        margin-top:6.6dvh;
 
-        font-size: 16vh;
+        font-size: 16dvh;
     }
     #henry{  
         
@@ -42,14 +42,14 @@
 
         color: #2b2b2b;
         
-        margin-left: calc(50vw + 3.5vh);
-        margin-top:43.5vh;
-        letter-spacing: 2vh;
+        margin-left: calc(50dvw + 3.5dvh);
+        margin-top:43.5dvh;
+        letter-spacing: 2dvh;
         
     
         position: absolute;
 
-        font-size: 9.25vh;
+        font-size: 9.25dvh;
         
         text-align: right;
     }
@@ -62,14 +62,14 @@
         transform: rotate(-45deg);
 
         text-decoration:none;
-        margin-left: calc(50vw - 39vh);
-        margin-top:74vh;
+        margin-left: calc(50dvw - 39dvh);
+        margin-top:74dvh;
         
         position:absolute;
         
         
 
-        font-size: 5.5vh;
+        font-size: 5.5dvh;
         
         text-align: right;
     }
@@ -95,14 +95,14 @@
         transform: rotate(-45deg);
 
         text-decoration:none;
-        margin-left: calc(50vw - 25vh);
-        margin-top:85vh;
+        margin-left: calc(50dvw - 25dvh);
+        margin-top:85dvh;
         
         position:absolute;
         
         
 
-        font-size: 5.5vh;
+        font-size: 5.5dvh;
         
         text-align: right;
     }
@@ -133,11 +133,11 @@
 
 @media screen and (orientation: portrait) {
     body{
-        height: 100vh;
-        width:100vw;
+        height: 100dvh;
+        width:100dvw;
         background-image: url("./images/background_headers/Final/Index_Portrait.svg");
 
-        background-size: 100vw auto;
+        background-size: 100dvw auto;
         background-repeat:no-repeat;
         background-position: center center;
         background-color: #FCF8DA
@@ -157,12 +157,12 @@
 
         color: #2b2b2b;
 
-        line-height: 13vw;
-        letter-spacing: 0.75vw;
-        margin-left: 68.75vw;
-        margin-top:calc(50vh - 23.5vw);
+        line-height: 13dvw;
+        letter-spacing: 0.75dvw;
+        margin-left: 68.75dvw;
+        margin-top:calc(50dvh - 23.5dvw);
 
-        font-size: 12vw;
+        font-size: 12dvw;
     }
     #henry{  
         
@@ -173,15 +173,15 @@
 
         color: #2b2b2b;
         
-        margin-left: 53vw;
-        margin-top:calc(50vh + 5.5vw);
+        margin-left: 53dvw;
+        margin-top:calc(50dvh + 5.5dvw);
 
-        letter-spacing: 1.8vw;
+        letter-spacing: 1.8dvw;
         
     
         position: absolute;
 
-        font-size:  7vw;
+        font-size:  7dvw;
         
         text-align: right;
     }
@@ -194,14 +194,14 @@
         transform: rotate(-45deg);
 
         text-decoration:none;
-        margin-left: 18vw;
-        margin-top: calc(50vh + 28vw);
+        margin-left: 18dvw;
+        margin-top: calc(50dvh + 28dvw);
         
         position:absolute;
         
         
 
-        font-size: 4.75vw;
+        font-size: 4.75dvw;
         
         text-align: right;
     }
@@ -227,12 +227,12 @@
         transform: rotate(-45deg);
 
         text-decoration:none;
-        margin-left: 30vw;
-        margin-top: calc(50vh + 36vw);
+        margin-left: 30dvw;
+        margin-top: calc(50dvh + 36dvw);
         
         position:absolute;
         
-        font-size: 4.75vw;
+        font-size: 4.75dvw;
         
         text-align: right;
     }
