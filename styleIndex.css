@@ -159,8 +159,8 @@
 
         line-height: 13svw;
         letter-spacing: 0.75svw;
-        margin-left: 68.75svw;
-        margin-top:calc(50svh - 23.5svw);
+        left: 68.75svw;
+        top:calc(50svh - 23.5svw);
 
         font-size: 12svw;
     }
@@ -173,8 +173,8 @@
 
         color: #2b2b2b;
         
-        margin-left: 53svw;
-        margin-top:calc(50svh + 5.5svw);
+        left: 53svw;
+        top:calc(50svh + 5.5svw);
 
         letter-spacing: 1.8svw;
         
@@ -194,8 +194,8 @@
         transform: rotate(-45deg);
 
         text-decoration:none;
-        margin-left: 18svw;
-        margin-top: calc(50svh + 28svw);
+        left: 18svw;
+        top: calc(50svh + 28svw);
         
         position:absolute;
         
@@ -227,8 +227,8 @@
         transform: rotate(-45deg);
 
         text-decoration:none;
-        margin-left: 30svw;
-        margin-top: calc(50svh + 36svw);
+        left: 30svw;
+        top: calc(50svh + 36svw);
         
         position:absolute;
         
