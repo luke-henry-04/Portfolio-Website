@@ -1,12 +1,12 @@
 @media screen and (orientation: landscape) {
     body{
-        height: 100dvh;
-        width:100dvw;
+        height: 100lvh;
+        width:100lvw;
         overflow-x: hidden;
         overflow-y:hidden;
         background-image: url("./images/background_headers/Final/Index_Landscape.svg");
         
-        background-size: auto 100dvh;
+        background-size: auto 100lvh;
         background-repeat:no-repeat;
         background-position: center top;
         background-color: #FCF8DA
@@ -26,12 +26,12 @@
 
         color: #2b2b2b;
 
-        line-height: 17dvh;
-        letter-spacing: 1dvh;
-        margin-left: calc(50dvw + 24dvh);
-        margin-top:6.6dvh;
+        line-height: 17lvh;
+        letter-spacing: 1lvh;
+        margin-left: calc(50lvw + 24lvh);
+        margin-top:6.6lvh;
 
-        font-size: 16dvh;
+        font-size: 16lvh;
     }
     #henry{  
         
@@ -42,14 +42,14 @@
 
         color: #2b2b2b;
         
-        margin-left: calc(50dvw + 3.5dvh);
-        margin-top:43.5dvh;
-        letter-spacing: 2dvh;
+        margin-left: calc(50lvw + 3.5lvh);
+        margin-top:43.5lvh;
+        letter-spacing: 2lvh;
         
     
         position: absolute;
 
-        font-size: 9.25dvh;
+        font-size: 9.25lvh;
         
         text-align: right;
     }
@@ -62,14 +62,14 @@
         transform: rotate(-45deg);
 
         text-decoration:none;
-        margin-left: calc(50dvw - 39dvh);
-        margin-top:74dvh;
+        margin-left: calc(50lvw - 39lvh);
+        margin-top:74lvh;
         
         position:absolute;
         
         
 
-        font-size: 5.5dvh;
+        font-size: 5.5lvh;
         
         text-align: right;
     }
@@ -95,14 +95,14 @@
         transform: rotate(-45deg);
 
         text-decoration:none;
-        margin-left: calc(50dvw - 25dvh);
-        margin-top:85dvh;
+        margin-left: calc(50lvw - 25lvh);
+        margin-top:85lvh;
         
         position:absolute;
         
         
 
-        font-size: 5.5dvh;
+        font-size: 5.5lvh;
         
         text-align: right;
     }
@@ -133,11 +133,11 @@
 
 @media screen and (orientation: portrait) {
     body{
-        height: 100dvh;
-        width:100dvw;
+        height: 100lvh;
+        width:100lvw;
         background-image: url("./images/background_headers/Final/Index_Portrait.svg");
 
-        background-size: 100dvw auto;
+        background-size: 100lvw auto;
         background-repeat:no-repeat;
         background-position: center center;
         background-color: #FCF8DA
@@ -157,12 +157,12 @@
 
         color: #2b2b2b;
 
-        line-height: 13dvw;
-        letter-spacing: 0.75dvw;
-        margin-left: 68.75dvw;
-        margin-top:calc(50dvh - 23.5dvw);
+        line-height: 13lvw;
+        letter-spacing: 0.75lvw;
+        margin-left: 68.75lvw;
+        margin-top:calc(50lvh - 23.5lvw);
 
-        font-size: 12dvw;
+        font-size: 12lvw;
     }
     #henry{  
         
@@ -173,15 +173,15 @@
 
         color: #2b2b2b;
         
-        margin-left: 53dvw;
-        margin-top:calc(50dvh + 5.5dvw);
+        margin-left: 53lvw;
+        margin-top:calc(50lvh + 5.5lvw);
 
-        letter-spacing: 1.8dvw;
+        letter-spacing: 1.8lvw;
         
     
         position: absolute;
 
-        font-size:  7dvw;
+        font-size:  7lvw;
         
         text-align: right;
     }
@@ -194,14 +194,14 @@
         transform: rotate(-45deg);
 
         text-decoration:none;
-        margin-left: 18dvw;
-        margin-top: calc(50dvh + 28dvw);
+        margin-left: 18lvw;
+        margin-top: calc(50lvh + 28lvw);
         
         position:absolute;
         
         
 
-        font-size: 4.75dvw;
+        font-size: 4.75lvw;
         
         text-align: right;
     }
@@ -227,12 +227,12 @@
         transform: rotate(-45deg);
 
         text-decoration:none;
-        margin-left: 30dvw;
-        margin-top: calc(50dvh + 36dvw);
+        margin-left: 30lvw;
+        margin-top: calc(50lvh + 36lvw);
         
         position:absolute;
         
-        font-size: 4.75dvw;
+        font-size: 4.75lvw;
         
         text-align: right;
     }
