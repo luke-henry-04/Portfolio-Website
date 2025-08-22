@@ -62,8 +62,8 @@
         transform: rotate(-45deg);
 
         text-decoration:none;
-        margin-left: calc(50vw - 46vh);
-        margin-top:77vh;
+        margin-left: calc(50vw - 39vh);
+        margin-top:74vh;
         
         position:absolute;
         
@@ -135,7 +135,7 @@
     body{
         height: 100vh;
         width:100vw;
-        background-image: url("./images/background_headers/bg_index_portrait_draft1.png");
+        background-image: url("./images/background_headers/Final/Index_Portrait.svg");
 
         background-size: 100vw auto;
         background-repeat:no-repeat;
@@ -194,8 +194,8 @@
         transform: rotate(-45deg);
 
         text-decoration:none;
-        margin-left: 14vw;
-        margin-top: calc(50vh + 29vw);
+        margin-left: 18vw;
+        margin-top: calc(50vh + 28vw);
         
         position:absolute;
         
@@ -227,8 +227,8 @@
         transform: rotate(-45deg);
 
         text-decoration:none;
-        margin-left: 30.5vw;
-        margin-top: calc(50vh + 35.5vw);
+        margin-left: 30vw;
+        margin-top: calc(50vh + 36vw);
         
         position:absolute;
         
