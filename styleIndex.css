@@ -26,12 +26,12 @@
 
         color: #2b2b2b;
 
-        line-height: 16.5vh;
+        line-height: 17vh;
         letter-spacing: 1vh;
-        margin-left: calc(50vw + 23vh);
-        margin-top:8vh;
+        margin-left: calc(50vw + 24vh);
+        margin-top:6.6vh;
 
-        font-size: 18.5vh;
+        font-size: 16vh;
     }
     #henry{  
         
@@ -42,8 +42,8 @@
 
         color: #2b2b2b;
         
-        margin-left: calc(50vw + 3vh);
-        margin-top:44vh;
+        margin-left: calc(50vw + 3.5vh);
+        margin-top:43.5vh;
         letter-spacing: 2vh;
         
     
@@ -157,10 +157,10 @@
 
         color: #2b2b2b;
 
-        line-height: 100%;
-        letter-spacing: 1vw;
-        margin-left: 69vw;
-        margin-top:calc(50vh - 24vw);
+        line-height: 13vw;
+        letter-spacing: 0.75vw;
+        margin-left: 68.75vw;
+        margin-top:calc(50vh - 23.5vw);
 
         font-size: 12vw;
     }
@@ -174,14 +174,14 @@
         color: #2b2b2b;
         
         margin-left: 53vw;
-        margin-top:calc(50vh + 2vw);
+        margin-top:calc(50vh + 5.5vw);
 
-        letter-spacing: -0.8vw;
+        letter-spacing: 1.8vw;
         
     
         position: absolute;
 
-        font-size:  10vw;
+        font-size:  7vw;
         
         text-align: right;
     }
