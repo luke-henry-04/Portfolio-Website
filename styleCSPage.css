@@ -150,11 +150,17 @@
 }
 @media screen and (orientation: landscape) {
     body{
-       /* background-image: url("./images/background_headers/bg_cspage_header_draft_6.png");
-        */
-        background-size: auto 85vh;
+         background-image: url("./images/background_headers/Final/CSPage_Landscape_left.svg");
+        background-size: calc(16.5vw - 10vh) 45vh;
+        background-position: left top;
+        @media screen and (max-height: 70.098vw) {
+        background-image: url("./images/background_headers/Final/CSPage_Landscape_left.svg"), 
+        url(./images/background_headers/Final/CSPage_Landscape_right.svg);
+        background-size: calc(16.5vw - 10vh) 45vh, auto 45vh;
+        background-position: left top, calc(16.5vw + 80vh) top;
+        }
         background-repeat:no-repeat;
-        background-position: top left;
+        
         background-color: #FCF8DA;
         margin: 0;
         padding: 0;
@@ -165,7 +171,9 @@
         
     }
 
-    #Computer{
+   
+
+    #Software{
         /*
         -webkit-transform: rotate(-31deg);
         -moz-transform: rotate(-31deg);
@@ -174,35 +182,16 @@
         */
         text-decoration:none;
         left: calc(16.5vw - 10vh);
-        top:-5vh;
+        top:1.75vh;
         margin:0;
         color: #2b2b2b;
         position:absolute;
-        font-size: 20vh;
-        letter-spacing:-1vh;
-        text-align: right;
-
-    }
-
-    #Science{
-        /*
-        -webkit-transform: rotate(-31deg);
-        -moz-transform: rotate(-31deg);
-        -o-transform: rotate(-31deg);
-        transform: rotate(-31deg);
-        */
-        text-decoration:none;
-        left: calc(16.5vw - 10vh);
-        top:12.5vh;
-        margin:0;
-        color: #2b2b2b;
-        position:absolute;
-        font-size: 20vh;
-        letter-spacing:-1vh;
+        font-size: 16.5vh;
+        letter-spacing:0vh;
         text-align: right;
     }
 
-    #Projects{
+    #Portfolio{
         /*
         -webkit-transform: rotate(5.25deg);
         -moz-transform: rotate(5.25deg);
@@ -211,12 +200,12 @@
         */
         text-decoration:none;
         left: calc(16.5vw - 10vh);
-        top:30vh;
+        top:22vh;
         margin:0;
         color:#2b2b2b;
         position:absolute;
-        font-size: 20vh;
-        letter-spacing:-1vh;
+        font-size: 16.5vh;
+        letter-spacing:0vh;
         text-align: right;
     }
 
@@ -241,7 +230,7 @@
         display: grid;
         grid-template-columns: 33vw 50vw;
         gap: 25vh 10vh;
-        margin-top:60vh;
+        margin-top:50vh;
         margin-left: 10vh;
         place-items: center;
     }
