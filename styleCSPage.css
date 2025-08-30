@@ -174,12 +174,6 @@
    
 
     #Software{
-        /*
-        -webkit-transform: rotate(-31deg);
-        -moz-transform: rotate(-31deg);
-        -o-transform: rotate(-31deg);
-        transform: rotate(-31deg);
-        */
         text-decoration:none;
         left: calc(16.5vw - 10vh);
         top:1.75vh;
@@ -192,12 +186,6 @@
     }
 
     #Portfolio{
-        /*
-        -webkit-transform: rotate(5.25deg);
-        -moz-transform: rotate(5.25deg);
-        -o-transform: rotate(5.25deg);
-        transform: rotate(5.25deg);
-        */
         text-decoration:none;
         left: calc(16.5vw - 10vh);
         top:22vh;
@@ -241,15 +229,7 @@
         place-items: center;
     }
 
-    img{
-        display: block;
-        height: 35vh;
-        @media screen and not (max-height: 70.098vw) {
-             height: 45vh;
-         }
-        border:1vh solid #fcf8da
-        
-   }
+  
 
    .project{
     
@@ -274,9 +254,7 @@
     
     }
 
-    .project_img{
-        
-        
+    .project_img{  
         width: 40vh;
         height:40vh;
         margin-top:5vh;
@@ -290,9 +268,17 @@
             margin-top:7vh;
             display: block;
             order:2;
-        }
-        
+        }  
     }
+
+    img{
+        display: block;
+        height: 35vh;
+        @media screen and not (max-height: 70.098vw) {
+             height: 45vh;
+         }
+        border:1vh solid #fcf8da   
+   }
 
     .project_title{
         font-size: 4.0vh;
