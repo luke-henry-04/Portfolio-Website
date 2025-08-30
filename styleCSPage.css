@@ -154,10 +154,10 @@
         background-size: calc(16.5vw - 10vh) 45vh;
         background-position: left top;
         @media screen and (max-height: 70.098vw) {
-        background-image: url("./images/background_headers/Final/CSPage_Landscape_left.svg"), 
-        url(./images/background_headers/Final/CSPage_Landscape_right.svg);
-        background-size: calc(16.5vw - 10vh) 45vh, auto 45vh;
-        background-position: left top, calc(16.5vw + 80vh) top;
+            background-image: url("./images/background_headers/Final/CSPage_Landscape_left.svg"), 
+            url(./images/background_headers/Final/CSPage_Landscape_right.svg);
+            background-size: calc(16.5vw - 10vh) 45vh, auto 45vh;
+            background-position: left top, calc(16.5vw + 80vh) top;
         }
         background-repeat:no-repeat;
         
@@ -228,9 +228,15 @@
     }
     .grid{
         display: grid;
-        grid-template-columns: 33vw 50vw;
-        gap: 25vh 10vh;
-        margin-top:50vh;
+        grid-template-columns: 75vw;
+        gap: 15vh;
+         margin-top:53vh;
+        @media screen and (max-height: 70.098vw) {
+            grid-template-columns: 33vw 50vw;
+            gap: 20vh 10vh;
+            margin-top:50vh;
+         }
+       
         margin-left: 10vh;
         place-items: center;
     }
@@ -238,11 +244,34 @@
     img{
         display: block;
         height: 35vh;
+        @media screen and not (max-height: 70.098vw) {
+             height: 45vh;
+         }
         border:1vh solid #fcf8da
+        
    }
 
-    .project{
+   .project{
+    
+    
+    display: contents;
+    @media screen and not (max-height: 70.098vw) {
+       display: grid;
+       justify-items: center;
+    }
+    
+   }
+
+    .project_text{
         line-height: 4vh;
+        
+        @media screen and not (max-height: 70.098vw) {
+            display: block;
+            order:1;
+            
+        }
+       
+    
     }
 
     .project_img{
@@ -250,9 +279,18 @@
         
         width: 40vh;
         height:40vh;
+        margin-top:5vh;
+        align-content: center;
         place-items: center;
         place-content: center;
         background-color: #2b2b2b;
+        @media screen and not (max-height: 70.098vw) {
+            width: 50vh;
+            height:50vh;
+            margin-top:7vh;
+            display: block;
+            order:2;
+        }
         
     }
 
@@ -281,6 +319,7 @@
     }
 
     .back{
+        width:95%;
         font-size: 2.5vh;
         display: block;
         text-align: right;
