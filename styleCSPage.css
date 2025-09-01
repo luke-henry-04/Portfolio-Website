@@ -76,11 +76,11 @@
         width: 50dvw;
         height:50dvw;
         margin-top:5dvw;
-        align-content: center;
-        place-items: center;
-        place-content: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: #2b2b2b;
-        display: block;
+        
         order:2;
         
     }
@@ -252,15 +252,14 @@
         width: 40dvh;
         height:40dvh;
         margin-top:5dvh;
-        align-content: center;
-        place-items: center;
-        place-content: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: #2b2b2b;
         @media screen and not (max-height: 70.098dvw) {
             width: 50dvh;
             height:50dvh;
             margin-top:7dvh;
-            display: block;
             order:2;
         }  
     }
@@ -271,7 +270,8 @@
         @media screen and not (max-height: 70.098dvw) {
              height: 45dvh;
          }
-        border:1dvh solid #fcf8da   
+         
+        border: 1dvh solid #fcf8da;  
    }
 
     .project_title{
