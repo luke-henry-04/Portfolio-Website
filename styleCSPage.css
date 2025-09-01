@@ -1,8 +1,8 @@
 
 @media screen and (orientation: portrait) {
     body {
-        background-image: url("./images/background_headers/bg_cspage_header_draft_6.png");
-        
+        /*background-image: url("./images/background_headers/bg_cspage_header_draft_6.png");
+        */
         background-size: auto 85vw;
         background-repeat:no-repeat;
         background-position: top left;
@@ -14,65 +14,35 @@
         place-items: left;
     }
 
-    
-    #Computer{
-        -webkit-transform: rotate(-31deg);
-        -moz-transform: rotate(-31deg);
-        -o-transform: rotate(-31deg);
-        transform: rotate(-31deg);
 
+   
+    #Software{
         text-decoration:none;
-        left: calc(16vw);
-        top:2.5vw;
+        left: calc(10vw);
+        top:5vw;
+        margin:0;
         color: #2b2b2b;
         position:absolute;
-        font-size: 6vw;
-        
+        font-size: 12vw;
+        letter-spacing:0vw;
         text-align: right;
-
     }
 
-    #Science{
-    
-        -webkit-transform: rotate(-31deg);
-        -moz-transform: rotate(-31deg);
-        -o-transform: rotate(-31deg);
-        transform: rotate(-31deg);
-
+    #Portfolio{
         text-decoration:none;
-        left: calc(34vw);
-        top:0vw;
-        color: #2b2b2b;
+        left: calc(10vw);
+        top:22vw;
+        margin:0;
+        color:#2b2b2b;
         position:absolute;
-        font-size: 6vw;
-        
+        font-size: 12vw;
+        letter-spacing:0vw;
         text-align: right;
     }
 
-    #Projects{
-        -webkit-transform: rotate(5.25deg);
-        -moz-transform: rotate(5.25deg);
-        -o-transform: rotate(5.25deg);
-        transform: rotate(5.25deg);
-
-        text-decoration:none;
-        left: calc(34vw);
-        top:12.5vw;
-        color:#fcf8da;
-        position:absolute;
-        font-size: 5.5vw;
-        
-        text-align: right;
-    }
 
     #Degree{
         position:absolute; 
-
-        -webkit-transform: rotate(5.25deg);
-        -moz-transform: rotate(5.25deg);
-        -o-transform: rotate(5.25deg);
-        transform: rotate(5.25deg);
-
         text-decoration:none;
         left: calc(65vw);
         top:25vw;
@@ -85,68 +55,91 @@
     .grid{
         
         display: grid;
-        grid-template-columns: 70vw;
+        grid-template-columns: 80vw;
         gap: 25vw 10vw;
-        margin-top:55vw;
-        margin-left:15vw;
+        margin-top:50vw;
+        margin-left:10vw;
         place-items: center;
     }
 
-    img{
-        width: 70vw;
-        grid-column: 1;
-    }
-    img:nth-of-type(1){
-        grid-row:2;
-    }
-    img:nth-of-type(2){
-        grid-row:4;
-    }
-    img:nth-of-type(3){
-        grid-row:6;
-    }
-    img:nth-of-type(4){
-        grid-row:8;
-    }
-    img:nth-of-type(5){
-        grid-row:10;
-    }
-    img:nth-of-type(6){
-        grid-row:12;
-    }
-    img:nth-of-type(7){
-        grid-row:14;
-    }
-    img:nth-of-type(8){
-        grid-row:16;
-    }
+
+    
 
 
     .project{
-        line-height: 5vw;
+        display: grid;
+        justify-items: center;
+    }
+
+    .project_img{  
+        width: 50vw;
+        height:50vw;
+        margin-top:5vw;
+        align-content: center;
+        place-items: center;
+        place-content: center;
+        background-color: #2b2b2b;
+        display: block;
+        order:2;
+        
+    }
+
+    img{
+        display: block;
+        height: 45vw;
+        border:1vw solid #fcf8da   
+    }
+
+    .project_text{
+        line-height: 5.3vw;
+        display: block;
+        order:1;
     }
 
     .project_title{
-        font-size: 4.5vw;
+        font-size: 5.3vw;
         margin: 0;
-        padding-bottom: 1vw;
+        padding-bottom: 2vw;
     }
 
     .project_date{
-        font-size: 2.5vw;
+        color:#611800;
+        font-size: 3.3vw;
         margin:0;
     }
     .project_languages{
-        font-size: 2.5vw;
+        color:#611800;
+        font-size: 3.3vw;
         margin: 0;
-        padding-bottom: 1vw;
+        padding-bottom: 2vw;
     }
 
     .project_description{
-        font-size: 2.5vw;
+        font-size: 3vw;
         margin: 0;
         
     }
+
+    .back{
+        width:95%;
+        font-size: 3.5vw;
+        display: block;
+        text-align: right;
+        color:#ca060a;
+        text-decoration:underline;
+        margin-top:20vw;
+        margin-bottom: 5vw;
+        margin-right:30vw;
+    }
+
+    a{
+        color:#c6080b;
+    }
+
+    hr{
+        border-top:1.5vw solid #2b2b2b;
+    }
+
 }
 @media screen and (orientation: landscape) {
     body{
@@ -214,6 +207,7 @@
         
         text-align: right;
     }
+
     .grid{
         display: grid;
         grid-template-columns: 75vw;
@@ -232,14 +226,11 @@
   
 
    .project{
-    
-    
     display: contents;
-    @media screen and not (max-height: 70.098vw) {
-       display: grid;
-       justify-items: center;
-    }
-    
+        @media screen and not (max-height: 70.098vw) {
+        display: grid;
+        justify-items: center;
+        }
    }
 
     .project_text{
@@ -250,8 +241,6 @@
             order:1;
             
         }
-       
-    
     }
 
     .project_img{  
