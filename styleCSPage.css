@@ -1,9 +1,9 @@
 
 @media screen and (orientation: portrait) {
     body {
-        /*background-image: url("./images/background_headers/bg_cspage_header_draft_6.png");
-        */
-        background-size: auto 85vw;
+        background-image: url("./images/background_headers/Final/CSPage_Portrait.svg");
+    
+        background-size: 100dvw 50dvw;
         background-repeat:no-repeat;
         background-position: top left;
         background-color: #FCF8DA;
@@ -18,25 +18,25 @@
    
     #Software{
         text-decoration:none;
-        left: calc(10vw);
-        top:5vw;
+        left: 21dvw;
+        top:4.5dvw;
         margin:0;
         color: #2b2b2b;
         position:absolute;
-        font-size: 12vw;
-        letter-spacing:0vw;
+        font-size: 14dvw;
+        letter-spacing:0dvw;
         text-align: right;
     }
 
     #Portfolio{
         text-decoration:none;
-        left: calc(10vw);
-        top:22vw;
+        left: 6dvw;
+        top:24dvw;
         margin:0;
         color:#2b2b2b;
         position:absolute;
-        font-size: 12vw;
-        letter-spacing:0vw;
+        font-size: 14dvw;
+        letter-spacing:0dvw;
         text-align: right;
     }
 
@@ -44,21 +44,21 @@
     #Degree{
         position:absolute; 
         text-decoration:none;
-        left: calc(65vw);
-        top:25vw;
+        left: calc(65dvw);
+        top:25dvw;
         color:#2b2b2b;
     
-        font-size: 2.25vw;
+        font-size: 2.25dvw;
         
         text-align: right;
     }
     .grid{
         
         display: grid;
-        grid-template-columns: 80vw;
-        gap: 25vw 10vw;
-        margin-top:50vw;
-        margin-left:10vw;
+        grid-template-columns: 80dvw;
+        gap: 25dvw 10dvw;
+        margin-top:50dvw;
+        margin-left:10dvw;
         place-items: center;
     }
 
@@ -72,9 +72,9 @@
     }
 
     .project_img{  
-        width: 50vw;
-        height:50vw;
-        margin-top:5vw;
+        width: 50dvw;
+        height:50dvw;
+        margin-top:5dvw;
         align-content: center;
         place-items: center;
         place-content: center;
@@ -86,50 +86,52 @@
 
     img{
         display: block;
-        height: 45vw;
-        border:1vw solid #fcf8da   
+        height: 45dvw;
+        border:1dvw solid #fcf8da   
     }
 
     .project_text{
-        line-height: 5.3vw;
+        line-height: 5.3dvw;
         display: block;
         order:1;
+        color: #2b2b2b;
     }
 
     .project_title{
-        font-size: 5.3vw;
+        font-size: 5.3dvw;
         margin: 0;
-        padding-bottom: 2vw;
+        padding-bottom: 2dvw;
+        color: #2b2b2b;
     }
 
     .project_date{
         color:#611800;
-        font-size: 3.3vw;
+        font-size: 3.3dvw;
         margin:0;
     }
     .project_languages{
         color:#611800;
-        font-size: 3.3vw;
+        font-size: 3.3dvw;
         margin: 0;
-        padding-bottom: 2vw;
+        padding-bottom: 2dvw;
     }
 
     .project_description{
-        font-size: 3vw;
+        font-size: 3dvw;
         margin: 0;
         
     }
 
     .back{
         width:95%;
-        font-size: 3.5vw;
+        font-size: 3.5dvw;
         display: block;
         text-align: right;
         color:#ca060a;
         text-decoration:underline;
-        margin-top:20vw;
-        margin-bottom: 5vw;
-        margin-right:30vw;
+        margin-top:20dvw;
+        margin-bottom: 5dvw;
+        margin-right:30dvw;
     }
 
     a{
@@ -137,20 +139,20 @@
     }
 
     hr{
-        border-top:1.5vw solid #2b2b2b;
+        border-top:1.25dvw solid #2b2b2b;
     }
 
 }
 @media screen and (orientation: landscape) {
     body{
          background-image: url("./images/background_headers/Final/CSPage_Landscape_left.svg");
-        background-size: calc(16.5vw - 10vh) 45vh;
+        background-size: calc(16.5dvw - 10dvh) 45dvh;
         background-position: left top;
-        @media screen and (max-height: 70.098vw) {
+        @media screen and (max-height: 70.098dvw) {
             background-image: url("./images/background_headers/Final/CSPage_Landscape_left.svg"), 
             url(./images/background_headers/Final/CSPage_Landscape_right.svg);
-            background-size: calc(16.5vw - 10vh) 45vh, auto 45vh;
-            background-position: left top, calc(16.5vw + 80vh) top;
+            background-size: calc(16.5dvw - 10dvh) 45dvh, auto 45dvh;
+            background-position: left top, calc(16.5dvw + 80dvh) top;
         }
         background-repeat:no-repeat;
         
@@ -168,25 +170,25 @@
 
     #Software{
         text-decoration:none;
-        left: calc(16.5vw - 10vh);
-        top:1.75vh;
+        left: calc(16.5dvw - 10dvh);
+        top:1.75dvh;
         margin:0;
         color: #2b2b2b;
         position:absolute;
-        font-size: 16.5vh;
-        letter-spacing:0vh;
+        font-size: 16.5dvh;
+        letter-spacing:0dvh;
         text-align: right;
     }
 
     #Portfolio{
         text-decoration:none;
-        left: calc(16.5vw - 10vh);
-        top:22vh;
+        left: calc(16.5dvw - 10dvh);
+        top:22dvh;
         margin:0;
         color:#2b2b2b;
         position:absolute;
-        font-size: 16.5vh;
-        letter-spacing:0vh;
+        font-size: 16.5dvh;
+        letter-spacing:0dvh;
         text-align: right;
     }
 
@@ -199,27 +201,27 @@
         transform: rotate(5.25deg);
 
         text-decoration:none;
-        left: calc(65vh);
-        top:25vh;
+        left: calc(65dvh);
+        top:25dvh;
         color:#fcf8da;
     
-        font-size: 2.25vh;
+        font-size: 2.25dvh;
         
         text-align: right;
     }
 
     .grid{
         display: grid;
-        grid-template-columns: 75vw;
-        gap: 15vh;
-         margin-top:53vh;
-        @media screen and (max-height: 70.098vw) {
-            grid-template-columns: 33vw 50vw;
-            gap: 20vh 10vh;
-            margin-top:50vh;
+        grid-template-columns: 75dvw;
+        gap: 15dvh;
+         margin-top:53dvh;
+        @media screen and (max-height: 70.098dvw) {
+            grid-template-columns: 33dvw 50dvw;
+            gap: 20dvh 10dvh;
+            margin-top:50dvh;
          }
        
-        margin-left: 10vh;
+        margin-left: 10dvh;
         place-items: center;
     }
 
@@ -227,16 +229,16 @@
 
    .project{
     display: contents;
-        @media screen and not (max-height: 70.098vw) {
+        @media screen and not (max-height: 70.098dvw) {
         display: grid;
         justify-items: center;
         }
    }
 
     .project_text{
-        line-height: 4vh;
+        line-height: 4dvh;
         
-        @media screen and not (max-height: 70.098vw) {
+        @media screen and not (max-height: 70.098dvw) {
             display: block;
             order:1;
             
@@ -244,17 +246,17 @@
     }
 
     .project_img{  
-        width: 40vh;
-        height:40vh;
-        margin-top:5vh;
+        width: 40dvh;
+        height:40dvh;
+        margin-top:5dvh;
         align-content: center;
         place-items: center;
         place-content: center;
         background-color: #2b2b2b;
-        @media screen and not (max-height: 70.098vw) {
-            width: 50vh;
-            height:50vh;
-            margin-top:7vh;
+        @media screen and not (max-height: 70.098dvw) {
+            width: 50dvh;
+            height:50dvh;
+            margin-top:7dvh;
             display: block;
             order:2;
         }  
@@ -262,47 +264,47 @@
 
     img{
         display: block;
-        height: 35vh;
-        @media screen and not (max-height: 70.098vw) {
-             height: 45vh;
+        height: 35dvh;
+        @media screen and not (max-height: 70.098dvw) {
+             height: 45dvh;
          }
-        border:1vh solid #fcf8da   
+        border:1dvh solid #fcf8da   
    }
 
     .project_title{
-        font-size: 4.0vh;
+        font-size: 4.0dvh;
         margin: 0;
-        padding-bottom: 1vh;
+        padding-bottom: 1dvh;
     }
 
     .project_date{
-        font-size: 2.5vh;
+        font-size: 2.5dvh;
         color:#611800;
         margin:0;
     }
     .project_languages{
-        font-size: 2.5vh;
+        font-size: 2.5dvh;
         color:#611800;
         margin: 0;
-        padding-bottom: 1vh;
+        padding-bottom: 1dvh;
     }
 
     .project_description{
-        font-size: 2.25vh;
+        font-size: 2.25dvh;
         margin: 0;
         
     }
 
     .back{
         width:95%;
-        font-size: 2.5vh;
+        font-size: 2.5dvh;
         display: block;
         text-align: right;
         color:#ca060a;
         text-decoration:underline;
-        margin-top:10vh;
-        margin-bottom: 10vh;
-        margin-right:30vh;
+        margin-top:10dvh;
+        margin-bottom: 10dvh;
+        margin-right:30dvh;
     }
 
     a{
@@ -310,7 +312,7 @@
     }
 
     hr{
-        border-top:1vh solid #2b2b2b;
+        border-top:1dvh solid #2b2b2b;
     }
    
     
