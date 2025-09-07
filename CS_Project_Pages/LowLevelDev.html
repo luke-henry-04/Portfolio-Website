@@ -8,25 +8,22 @@
 
 <body>
     <div class="project">
+        
         <h2 class="project_title">Low Level Development - Personal Study</h2>
         <h4 class="project_date">March 2024 - Present</h4>
-        <h4 class="project_languages">Intel x86, C</h4>
+        <h4 class="project_languages">Intel x86 Assembly</h4>
         <strong class="project_description">
-            I started a low level development project in my spare time to
-            learn more about how computers function. Using Intel's x86 software 
-            development manual (SDM) as a reference, the project began with writing 
+            I started a low level development project in my spare time to better understand how software directly interacts with hardware. Using Intel's x86 Software 
+            Developer's Manual (SDM) as a reference, I began by writing 
             16-bit real mode programs directly in the MBR partition on a hard drive.  
             Initial programs involved writing text to the screen from keyboard input 
-            and coloring the pixels in VGA graphics mode. They were written in assembly and compiled to machine code using the SDM as a reference.  
+            and coloring pixels in VGA graphics mode. They were written in x86 assembly and compiled to machine code in a hex editor using the SDM.
             <br><br>
-            I then created a simple "bootloader" program that loads 
-            larger files from the rest of the drive into memory and runs them. 
-            Future plans for the project involve creating a proper bootloader 
-            that also switches the CPU into protected mode and transfers control to an operating system. 
-            I also intend to develop a simple operating system for the sake of better understanding scheduling, drivers, 
-            memory paging, file organization, etc.
+            Building on what I learned about the boot process, BIOS interrupts, x86 hardware, and 16-bit segmented memory addressing, I developed a custom MBR bootloader in assembly. It loads a kernel file into memory from disk, sets up a Global Descriptor Table, and switches the processor into 32-bit protected mode before transferring control. 
             <br><br>
-           <p>The project's Github repository is availible <a href="https://github.com/luke-henry-04/OSDevProject">here.</a></p>
+           To test the bootloader and gain experience with 32-bit assembly, I developed 32-bit programs, loaded and run from disk by the bootloader, that experiment with accessing a larger range of memory, performing keyboard and disk I/O through ports instead of BIOS interrupts, and basic kernel functionality like setting up an interrupt table. Current work is aimed at developing a minimal kernel that can run and schedule programs. 
+            <br><br>
+           <p>The project's source code is available on <a href="https://github.com/luke-henry-04/OSDevProject" target="_blank">GitHub.</a></p>
            <br><br>
         </strong>
 
