@@ -15,11 +15,17 @@
 }
 @media screen and (orientation: landscape) {
 body{
-    background-image: url("../images/background_headers/Final/ProjectPage_Landscape_Left.svg"),url("../images/background_headers/Final/ProjectPage_Landscape_Right.svg");
-    
+    background-image: url("../images/background_headers/Final/ProjectPage_Landscape_Left.svg");
+    background-position: top left;
+
+    @media screen and (max-height: 70.098dvw) {
+         background-image: url("../images/background_headers/Final/ProjectPage_Landscape_Left.svg"),url("../images/background_headers/Final/ProjectPage_Landscape_Right.svg");
+
+         background-position: top left, top right;
+    }
     background-size: 15vw auto;
     background-repeat:repeat-y;
-    background-position: top left, top right;
+   
     background-color: #FCF8DA;
     margin: 0;
     font-family: Verdana, sans-serif;
@@ -31,7 +37,10 @@ body{
 .project{
     line-height: 5vh;
     margin-left: 20vw;
+    margin-right: 5vw;
+    @media screen and (max-height: 70.098dvw) {
     margin-right: 20vw;
+    }
     margin-top: 10vh;
  
 
