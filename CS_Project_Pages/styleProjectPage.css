@@ -15,7 +15,7 @@
 }
 @media screen and (orientation: landscape) {
 body{
-    background-image: url("../images/background_headers/bg_projectpage_draft2.png"),url("../images/background_headers/bg_projectpage_draft1.png");
+    background-image: url("../images/background_headers/Final/ProjectPage_Landscape_Left.svg"),url("../images/background_headers/Final/ProjectPage_Landscape_Right.svg");
     
     background-size: 15vw auto;
     background-repeat:repeat-y;
