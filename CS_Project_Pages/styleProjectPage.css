@@ -1,18 +1,92 @@
-
 @media screen and (orientation: portrait) {
-    body {
-        /*background-image: url("./images/background_headers/bg_index_draft_3.png");
-        */
-        background-size: auto 100vw;
-        background-repeat:no-repeat;
-        background-position: top right;
-        background-color: #FCF8DA;
-        margin: 0;
-        font-family: Verdana, sans-serif;
-        /*background-color: rgb(227, 164, 19);*/
-        place-items: right;
-    }
+body{
+    background-image: url("../images/background_headers/Final/ProjectPage_Portrait.svg");
+    background-position: top left;
+
+    background-size: 100vw auto;
+    background-repeat:no-repeat;
+   
+    background-color: #FCF8DA;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    /*background-color: rgb(227, 164, 19);*/
+   
 }
+
+
+.project{
+    line-height: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    
+    margin-top: 30vw;
+ 
+
+}
+
+.project_title{
+    font-size: 4.5vh;
+    margin: 0;
+    padding-bottom: 1vh;
+}
+
+.project_date{
+    font-size: 2.5vh;
+    margin:0;
+    color:#611800;
+}
+.project_languages{
+    font-size: 2.5vh;
+    margin: 0;
+    padding-bottom: 5vh;
+    color:#611800;
+}
+
+.project_description{
+    font-size: 2.5vh;
+    
+    margin: 0;
+    
+}
+
+.caption{
+    font-size:2.5vh;
+    display:inline-block;
+    margin:0;
+    width:100%;
+    text-align: center;
+    color:#611800;
+}
+
+img{
+    display:block;
+    text-align:center;
+    place-self: center;
+    width: 60vh;
+    padding-top:10px;
+}
+
+.back{
+    font-size: 2.5vh;
+    display: inline-block;
+    width:100%;
+    text-align: right;
+    color:#c6080b;
+    text-decoration:underline;
+    margin-bottom: 20px;
+}
+
+.large{
+    width: calc(min(100vh, 60vw))
+}
+
+a{
+        color:#c6080b;
+}
+
+
+}
+
 @media screen and (orientation: landscape) {
 body{
     background-image: url("../images/background_headers/Final/ProjectPage_Landscape_Left.svg");
