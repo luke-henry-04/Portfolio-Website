@@ -45,7 +45,7 @@
                 <strong class="project_description">
                     A custom MBR bootloader written in x86 assembly that loads a kernel file into memory from disk, sets up a Global Descriptor Table, and switches the CPU into 32-bit protected mode before transferring control.
                     This is part of an independent study into low-level development using Intel's x86 Software Developer's Manual as a primary reference. Current work focuses on developing a minimimal operating system that can run and schedule programs.  
-                    <p><a href="./CS_Project_Pages/LowLevelDev.html"  >learn more about this project...</a></p>
+                    <p><a href="./CS_Project_Pages/LowLevelDev.html"  >Learn more...</a></p>
                     <div style="color:#611800;">
                         <p>The project's Github repository is available <a href="https://github.com/luke-henry-04/OSDevProject" target="_blank">here.</a></p>
                     </div>
@@ -54,34 +54,43 @@
         </div>
 
         <div class="project">
-            <div class="project_img"><img src="images/cs_projects/CornelBox_softshadows_antialiased.png"></div>
+            <div class="project_img"><img src="images/cs_projects/Pathtracer.png"></div>
             <div class="project_text">
                 <hr>
                 <h2 class="project_title">Pathtracer</h2>
                 <h4 class="project_date">March 2025 - June 2025</h4>
                 <h4 class="project_languages">C++</h4>
                 <strong class="project_description">
-                    A CPU pathtracer written in C++, with multiple integrators supporting advanced rendering techniques while maintaining backwards compatibility with older input files. 
-                    <br><br>
-                    Core Features: Anti-aliasing, Cosine Importance Sampling, Analytic Direct Lighting, Blinn-Phong Shading.
-                    <br><br>
-                    Advanced Features:  BVH Acceleration, Monte Carlo Pathtracing, GGX shading with BRDF Importance Sampling, Nearest Event Estimation, Multiple Importance Sampling.
-
-                    <p><a href="CS_Project_Pages/Raytracer.html"  > see images rendered from this project...</a></p>
+                    A CPU pathtracer written in C++, with multiple integrators supporting advanced rendering techniques while maintaining backwards compatibility with older input files.
+                    <p>
+                    Features include anti-aliasing, advanced unbiased sampling methods, physically-based shading models, BVH acceleration, and Monte Carlo path tracing.
+                    </p>
+                    <details>
+                        <summary>Show rendering features</summary>
+                        <ul>
+                            • Core Features: Anti-aliasing, Cosine importance sampling, Analytic direct lighting, Blinn-Phong shading, Monte Carlo pathtracing
+                             <br><br>
+                            •Advanced Features:  BVH Acceleration, GGX shading with BRDF importance sampling, Nearest event estimation, Russian roulette path termination, Multiple importance sampling, Fluid simulation, Volumetric rendering
+                        </ul>
+                    </details>
+                
+                    <p><a href="CS_Project_Pages/Raytracer.html"  > View rendered images...</a></p>
                 </strong>
             </div>
         </div>
 
          <div class="project">
-            <div class="project_img"><img src="images/Icons/blue.png"></div>
+            <div class="project_img"><img src="images/cs_projects/FluidSim.gif"></div>
             <div class="project_text">
                 <hr>
                 <h2 class="project_title">Fluid Simululation and Volumetric Rendering</h2>
                 <h4 class="project_date">June 2025</h4>
                 <h4 class="project_languages">C++</h4>
                 <strong class="project_description">
-                    Text <br>text<br>text<br>text
-                    <p><a href="CS_Project_Pages/Raytracer.html"  > see images rendered from this project...</a></p>
+                    An integrator for the above pathtracer enabling a smoke simulation with volumetric rendering. It uses a semi-Lagrangian, grid-based method to approximate and discretize the Navier-Stokes equations for incompressible fluids with constant viscosity. Advanced techniques include a Conjugate Gradient pressure solver, monotonic cubic interpolation, and the Henyey-Greenstein phase function for realistic light scattering. 
+                
+                    <p>
+                    <a href="https://lukehenry04.github.io/CSE168_websites/FinalWriteup.html" target="_blank" >A detailed writeup is available here</a> with images and animations documenting the process and techniques. The project was recognized by the professor as one of the top 4 open-ended final projects in the course.</p>
                 </strong>
             </div>
         </div>
