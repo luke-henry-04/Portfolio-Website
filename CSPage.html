@@ -95,46 +95,19 @@
             </div>
         </div>
 
-         <div class="project">
-            <div class="project_img"><img src="images/Icons/red.png"></div>
-            <div class="project_text">
-                <hr>
-                <h2 class="project_title">Nachos Instructional OS</h2>
-                <h4 class="project_date">March 2025 - June 2025</h4>
-                <h4 class="project_languages">Java</h4>
-                <strong class="project_description">
-                    Implemented threads, concurrency, virtual memory, file IO system calls, and demand paging in Nachos instructional OS.
-                    <p><a href="CS_Project_Pages/Raytracer.html"  > see images rendered from this project...</a></p>
-                </strong>
-            </div>
-        </div>
-
-        <div class="project">
-            <div class="project_img"><img src="images/cs_projects/mandelbrot.png"></div>
-            <div class="project_text">
-                <hr>
-                <h2 class="project_title">Shaders and Computer Graphics</h2>
-                <h4 class="project_date">Jan 2025 - March 2025</h4>
-                <h4 class="project_languages">C++, OpenGL, GLSL</h4>
-                <strong class="project_description">
-                    I implemented shaders that calculate Phong shading based on an object's material properties in GLSL, a fragment shader that renders the Mandelbrot fractal on a sqaure, and a matrix stack program in C++ using OpenGL that uses a tree structure to organize scene objects and geometries, then calculates model-view and perspective matrices along a traversal of that tree during rendering. 
-                    <p><a href="./CS_Project_Pages/ComputerGraphics.html"  > see images...</a></p>
-                </strong>
-            </div> 
-        </div>
-
         <div class="project">
             <div class="project_img"><img src="images/cs_projects/HPS.jpg"></div>
             <div class="project_text">
                 <hr>
-                <h2 class="project_title">Human Powered Submarine Club - Electronics</h2>
+                <h2 class="project_title">Submarine Propeller RPM Sensor</h2>
                 <h4 class="project_date">Nov 2024 - Present</h4>
                 <h4 class="project_languages">Arduino (C++), CAD</h4>
                 <strong class="project_description">
-                    I joined UCSD's Human Powered Submarine club's electronic team. I impemented a sensor to measure and display the RPM of the sub's propellor using an arduino with a Hall effect sensor and a 3D-printed cuff containing magnets of alternating polarity. The hall effect sensor measures the magnetic strength of the magnet cuff as it's turning, and is able to detect each time a magnet passes by it. Using this, the arduino then calculates an RPM and sends that to an LCD screen which displays information on the sub's sensors. Because the Hall effect sensor needs a fast response time, I implemented a scheduler in the arduino that allows the RPM sensor to do a calculation using the whole CPU for a number of frames, then allows the other sensors to do their respective jobs for a number of frames, alternating. I also designed and 3D-printed a mount for the sensor using CAD. 
+                   A system to measure and display propeller RPM for UCSD's Human Powered Submarine Club. A Hall effect sensor reads the magnetic field from a rotating cuff around the propeller shaft, sending it to an arduino which calculates the RPM and displays it on the pilot's LCD screen. The sensor is attached via a 3D printed mount, with multiple design iterations to fit within limited space constraints and facilitate installation in hard-to-reach spots.
+                   <p> A custom scheduler divides CPU resources between the sub's different sensors to ensure accurate RPM readings, preempting with a best estimate when other sensors have been waiting for new readings.
+                    </p>
                     <div style="color:#611800;">
-                        <p>The files can be found at this Github repository, {LINK}</p>
-                        <p><a href="./CS_Project_Pages/HPS.html"  > learn more...</a></p>
+                        <p><a href="./CS_Project_Pages/HPS.html"  > View designs...</a></p>
                     </div>
                     
                 </strong>
@@ -166,7 +139,7 @@
                     I participated the Ludum Dare 56 game jam in October 2024. I made a small game around the theme "Tiny Creatures" over the course of a weekend using Unity game engine.
                     <br><br>
                     <div style="color:#611800;">
-                        The game is hosted on <a href="https://muchoswaffles.itch.io/desk-jobs" target="_blank">itch.io</a><br>and the github repository is available <a href="https://github.com/luke-henry-04/LudumDare56-TinyCreatures" target="_blank">here.</a>
+                        The game is hosted on <a href="https://muchoswaffles.itch.io/desk-jobs" target="_blank">itch.io</a>, as are most of my gamedev projects.<br>The github repository is available <a href="https://github.com/luke-henry-04/LudumDare56-TinyCreatures" target="_blank">here.</a>
                     </div>
                 </strong>
             </div>
