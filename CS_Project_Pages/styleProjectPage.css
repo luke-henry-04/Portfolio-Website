@@ -1,9 +1,9 @@
 @media screen and (orientation: portrait) {
 body{
     background-image: url("../images/background_headers/Final/ProjectPage_Portrait.svg");
-    background-position: top left;
+    background-position: top center;
 
-    background-size: 100vw auto;
+    background-size: 105vw auto;
     background-repeat:no-repeat;
    
     background-color: #FCF8DA;
@@ -15,42 +15,42 @@ body{
 
 
 .project{
-    line-height: 5vh;
+    line-height: 5vw;
     margin-left: 10vw;
     margin-right: 10vw;
     
-    margin-top: 30vw;
+    margin-top: 40vw;
  
 
 }
 
 .project_title{
-    font-size: 4.5vh;
+    font-size: 5.3vw;
     margin: 0;
-    padding-bottom: 1vh;
+    padding-bottom: 1vw;
 }
 
 .project_date{
-    font-size: 2.5vh;
-    margin:0;
-    color:#611800;
+        color:#611800;
+        font-size: 3.2vw;
+        margin:0;
 }
 .project_languages{
-    font-size: 2.5vh;
-    margin: 0;
-    padding-bottom: 5vh;
     color:#611800;
+    font-size: 3.2vw;
+    margin: 0;
+    padding-bottom: 10vw;
 }
 
 .project_description{
-    font-size: 2.5vh;
+    font-size: 3vw;
     
     margin: 0;
     
 }
 
 .caption{
-    font-size:2.5vh;
+    font-size:3vw;
     display:inline-block;
     margin:0;
     width:100%;
@@ -62,12 +62,22 @@ img{
     display:block;
     text-align:center;
     place-self: center;
-    width: 60vh;
+    width: 50vw;
     padding-top:10px;
 }
 
+.imgGrid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgCaptionPair{
+    width:50vw;
+}
 .back{
-    font-size: 2.5vh;
+    font-size: 3vw;
     display: inline-block;
     width:100%;
     text-align: right;
