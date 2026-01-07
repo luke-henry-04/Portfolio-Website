@@ -1,0 +1,104 @@
+@media screen and (orientation: landscape) {
+    body{
+         
+       
+        background-position: left top;
+        @media screen and (max-height: 70.098dvw) {
+           
+        }
+        background-repeat:no-repeat;
+        
+        background-color: #FCF8DA;
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, 'Roboto Flex', Tahoma, sans-serif;
+        font-variation-settings: "wdth" 130, "wght" 800;
+        /*background-color: rgb(227, 164, 19);*/
+        place-items: left;
+        color:#2b2b2b;
+        
+    }
+
+   
+
+    #VisualArts{
+        text-decoration:none;
+        text-align: center;
+        width: 100dvw;
+        top:1.75dvh;
+        margin:0;
+        color: #2b2b2b;
+        position:absolute;
+        font-size: min(8dvw, 16.5dvh);
+        letter-spacing:0dvh;
+        
+    }
+
+    #Portfolio{
+        text-decoration:none;
+        left: calc(16.5dvw - 20dvh);
+        top:25dvh;
+        margin:0;
+        color:#2b2b2b;
+        position:absolute;
+        font-size: 16.5dvh;
+        letter-spacing:0dvh;
+        text-align: right;
+    }
+
+    #Tabs{
+        display:flex;
+        flex-wrap: wrap;
+        width: 80dvw;
+
+        position:absolute; 
+        text-decoration:none;
+        left: 10dvw;
+        top:25dvh;
+        color:#2b2b2b;
+    }
+
+    .Label{
+        padding: 10px 16px;
+        cursor: pointer;
+        margin-bottom: 2dvh;
+    }
+
+    .tablinks{
+        display: none;
+    }
+
+    .ArtGrid{
+        order:1;
+        width: 100%;
+        margin-bottom:6dvh;
+        /*border: 1.5dvh solid #2b2b2b;
+       */
+        line-height: 1.5;
+        display: none;
+    }
+
+    .tablinks:checked+.Label{
+        color:#c94144;
+        border-bottom: 1dvh solid #c94144;
+
+    }
+
+     .tablinks:checked+.Label+.ArtGrid{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+        gap: clamp(1rem, 3vw, 3rem);
+
+        
+    }
+
+    img{
+       
+        margin: 2dvh;
+        height:60dvh;
+        border: 1dvh solid #2b2b2b;
+        
+    }
+}
