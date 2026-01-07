@@ -101,3 +101,18 @@
         border: 1dvh solid #2b2b2b;
         
     }
+
+    #inProgress{
+        position: absolute;
+        color:#c94144;
+        width:40vw;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         -webkit-transform: translate(-50%,-50%) rotate(-20deg);
+        -moz-transform: translate(-50%,-50%) rotate(-20deg);
+        -o-transform: translate(-50%,-50%) rotate(-20deg);
+        transform: translate(-50%,-50%) rotate(-20deg);
+        top: calc(2*min(2dvw, 4.1dvh));
+        font-size: min(2dvw, 4.1dvh);
+        left: 95dvw;
+        text-shadow: 0.2dvh 0.2dvh 0.1dvh #FCF8DA;
+    }
