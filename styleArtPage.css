@@ -1,14 +1,14 @@
 
     body{
-         
-       
-        background-position: left top;
-        @media screen and (max-height: 70.098dvw) {
-           
-        }
-        background-repeat:no-repeat;
+     
         
+        overflow-x: hidden;
+        background-image: url("./images/background_headers/Final/ArtPage.svg");
+        background-position: left top;
+        background-repeat:no-repeat;
+        background-size: auto 100dvh;
         background-color: #FCF8DA;
+
         margin: 0;
         padding: 0;
         font-family: Verdana, 'Roboto Flex', Tahoma, sans-serif;
@@ -17,19 +17,35 @@
         place-items: left;
         color:#2b2b2b;
         
+        
+    }
+
+    #Page{
+        position:relative;
+        
+        min-height: 100vh;
+
     }
 
    
 
+
+   
+
     #VisualArts{
+        display:flex;
+  align-items: center;
         text-decoration:none;
-        text-align: center;
+        text-align: left center;
+        
         width: 100dvw;
-        top:1.75dvh;
+        height:12dvh;
+        top:12dvh;
         margin:0;
-        color: #2b2b2b;
+        margin-left:13.5dvh;
+        color: #FCF8DA;
         position:absolute;
-        font-size: min(8dvw, 16.5dvh);
+        font-size: min(6.75dvw, 9.75dvh);
         letter-spacing:0dvh;
         
     }
@@ -46,22 +62,42 @@
         text-align: right;
     }
 
+    #bgSideBar{
+        position:absolute;
+        top:30dvh;
+        bottom: -25dvh; 
+        left: 8.12dvh;
+       
+        background-color: #2b2b2b;
+        width: 1.4dvh;
+        overflow: hidden;
+        
+    }
+
+   
+    
     #Tabs{
         display:flex;
         flex-wrap: wrap;
         width: 80dvw;
 
-        position:absolute; 
+        position:relative; 
         text-decoration:none;
-        left: 10dvw;
-        top:25dvh;
+        left: 17dvh;
+        top:27dvh;
         color:#2b2b2b;
+        font-size: min(3dvw,3dvh);
+        
+        
     }
 
     .Label{
-        padding: 10px 16px;
+        padding: 0;
+        padding-right:5dvh;
         cursor: pointer;
         margin-bottom: 2dvh;
+        text-align: left;
+        
     }
 
     .tablinks{
@@ -121,6 +157,8 @@
     .ArtPopUp{
         width: 100%;
         height: 100%;
+        top:0;
+        left:0;
         position: fixed;
         visibility: hidden;
         background: #2b2b2b;
@@ -141,7 +179,7 @@
     }
 
     .ArtDescription{
-        position:fixed;
+        position:relative;
         width: 85vw;
         background:#FCF8DA;
         left:5vw;
@@ -149,23 +187,26 @@
     }
 
     .Title{
-        position:fixed;
+        position:relative;
+        margin: 0;
         margin-left:5vw;
-        margin-top:3vh;
+        margin-top:1dvh;
         font-size: 4dvh;
     }
 
     .Medium{
-        position:fixed;
+        position:relative;
+        margin: 0;
         margin-left:5vw;
-        margin-top:9vh;
+         margin-top:1dvh;
         font-size: 3dvh;
     }
 
     .Size{
         position:fixed;
+        margin: 0;
         margin-left:5vw;
-        margin-top:14vh;
+       margin-top:1dvh;
         font-size: 3dvh;
     }
 

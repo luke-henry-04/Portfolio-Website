@@ -6,68 +6,228 @@
     <link rel="stylesheet" href="styleArtPage.css">
 </head>
 <body>
-    <h1 id="VisualArts">Visual Arts Portfolio</h1>
-    <p id="inProgress">Under Construction, <br>More Coming Soon!</p>
-
     
-    <div id="Tabs">
-        <input type="radio" class="tablinks" name="Portfolio" id="Paintings" checked>
-        <label for="Paintings" class="Label">Paintings</label>
-        <div class="ArtGrid">
-            <a class="button" href="#Fire"><img class="gridImg" src="images/artwork/Paintings/Fire.jpg"></a>
-            <img class="gridImg" src="images/artwork/Paintings/Rabbits.jpg">
-            <img class="gridImg" src="images/artwork/Paintings/Birb.jpg">
-            <img class="gridImg" src="images/artwork/Paintings/Headlights.jpg">
-            <img class="gridImg" src="images/artwork/Paintings/StillLife.jpg">
-            <img class="gridImg" src="images/artwork/Paintings/Vis80_collagePortrait.jpg">
-            
-        </div>
-
-        <input type="radio" class="tablinks" name="Portfolio" id="Drawings">
-        <label for="Drawings" class="Label">Drawings</label>
-        <div class="ArtGrid">
-            <img class="gridImg" src="images/artwork/Drawings/HandInMouthCropped.jpg">
-            <img class="gridImg" src="images/artwork/Drawings/littletikes.jpg">
-            <img class="gridImg" src="images/artwork/Drawings/Breakneck.jpg">
-            <img class="gridImg" src="images/artwork/Drawings/cranes.jpg">
-            <img class="gridImg" src="images/artwork/Drawings/nonno.jpg">
-            <img class="gridImg" src="images/artwork/Drawings/Jefferson.jpg">
-            
-            <img class="gridImg" src="images/artwork/Drawings/3Portrait.jpg">
-        </div>
-        
-        <!--
-        <input type="radio" class="tablinks" name="Portfolio" id="Other Works">
-        <label for="Other Works" class="Label">Other Works</label>
-        <div class="ArtGrid">
-              <img src="images/cs_projects/FluidSim.gif">
-            <img src="images/background_headers/bg_cspage_header_draft_4.png">
-            <img src="images/cs_projects/GameDev.png">
-            <img src="images/cs_projects/FluidSim.gif">
-            <img src="images/background_headers/bg_cspage_header_draft_4.png">
-            <img src="images/cs_projects/GameDev.png"><img src="images/cs_projects/FluidSim.gif">
-            <img src="images/background_headers/bg_cspage_header_draft_4.png">
-            <img src="../../../Pictures/20210611_171756.jpg">
-            <img src="images/cs_projects/FluidSim.gif">
-            <img src="images/background_headers/bg_cspage_header_draft_4.png">
-        </div>
+    <div id="Page">
+        <h1 id="VisualArts">Visual Arts Portfolio</h1>
+        <!--<p id="inProgress">Under Construction, <br>More Coming Soon!</p>
     -->
-    </div>
+        <div id="bgSideBar"></div>
+        
+        <div id="Tabs">
+            <input type="radio" class="tablinks" name="Portfolio" id="Paintings" checked>
+            <label for="Paintings" class="Label"><strong>Paintings</strong></label>
+            <div class="ArtGrid">
+                <a id="a1" class="button" href="#Fire"><img class="gridImg" src="images/artwork/Paintings/Fire.jpg"></a>
+                <a id="a2" class="button" href="#Rabbits"><img class="gridImg" src="images/artwork/Paintings/Rabbits.jpg"></a>
+                <a id="a3" class="button" href="#Bird"><img class="gridImg" src="images/artwork/Paintings/Birb.jpg"></a>
+                <a id="a4" class="button" href="#Headlights"><img class="gridImg" src="images/artwork/Paintings/Headlights.jpg"></a>
+                <a id="a5" class="button" href="#StillLife"><img class="gridImg" src="images/artwork/Paintings/StillLife.jpg"></a>
+                <a id="a6" class="button" href="#Boxes"><img class="gridImg" src="images/artwork/Paintings/Vis80_collagePortrait.jpg"></a>
+                
+            </div>
 
-    <div id="Fire" class="ArtPopUp">
-        <div class="ArtDescription">
-            <a class="HideDescription" href="#">&times;</a>
-            <img class="popupImg" src="./images/artwork/Paintings/Fire.jpg">
-            <h2 class="Title">
-                <i>Untitled</i>, 2025
-            </h2>
-            <h3 class="Medium">
-                Oil on acrylic panel
-            </h3>
-            <h3 class="Size">
-                18 x 24 inches
-            </h3>
+            <input type="radio" class="tablinks" name="Portfolio" id="Drawings">
+            <label for="Drawings" class="Label"><strong>Drawings</strong></label>
+            <div class="ArtGrid">
+                <a id="a7" class="button" href="#HandInMouth"><img class="gridImg" src="images/artwork/Drawings/HandInMouthCropped.jpg"></a>
+                <a id="a8" class="button" href="#Tikes"><img class="gridImg" src="images/artwork/Drawings/littletikes.jpg"></a>
+                <a id="a9" class="button" href="#Meteor"><img class="gridImg" src="images/artwork/Drawings/Breakneck.jpg"></a>
+                <a id="a10" class="button" href="#Cranes"><img class="gridImg" src="images/artwork/Drawings/cranes.jpg"></a>
+                <a id="a11" class="button" href="#Nonno"><img class="gridImg" src="images/artwork/Drawings/nonno.jpg"></a> 
+                <a id="a12" class="button" href="#3Portrait"><img class="gridImg" src="images/artwork/Drawings/3Portrait.jpg"></a>
+            </div>
         </div>
-</div>
+
+        <!--Painting Popups-->
+        <div id="Fire" class="ArtPopUp">
+            <div class="ArtDescription">
+                <a class="HideDescription" href="#a1">&times;</a>
+                <img class="popupImg" src="./images/artwork/Paintings/Fire.jpg">
+                <h2 class="Title">
+                    <i>No Greater Devotion</i>, 2025
+                </h2>
+                <h3 class="Medium">
+                    Oil on acrylic panel
+                </h3>
+                <h3 class="Size">
+                    43.5 x 30 inches
+                </h3>
+            </div>
+        </div>
+
+        <div id="Rabbits" class="ArtPopUp">
+            <div class="ArtDescription">
+                <a class="HideDescription" href="#a2">&times;</a>
+                <img class="popupImg" src="./images/artwork/Paintings/Rabbits.jpg">
+                <h2 class="Title">
+                    <i>Rabbits</i>, 2025
+                </h2>
+                <h3 class="Medium">
+                    Oil on canvas
+                </h3>
+                <h3 class="Size">
+                    32 x 32 inches
+                </h3>
+            </div>
+        </div>
+        <div id="Bird" class="ArtPopUp">
+            <div class="ArtDescription">
+                <a class="HideDescription" href="#a3">&times;</a>
+                <img class="popupImg" src="./images/artwork/Paintings/Birb.jpg">
+                <h2 class="Title">
+                    <i>Untitled</i>, 2025
+                </h2>
+                <h3 class="Medium">
+                    Oil on canvas
+                </h3>
+                <h3 class="Size">
+                    18 x 20 inches
+                </h3>
+            </div>
+        </div>
+        <div id="Headlights" class="ArtPopUp">
+            <div class="ArtDescription">
+                <a class="HideDescription" href="#a4">&times;</a>
+                <img class="popupImg" src="./images/artwork/Paintings/Headlights.jpg">
+                <h2 class="Title">
+                    <i>Headlights</i>, 2025
+                </h2>
+                <h3 class="Medium">
+                    Oil on canvas
+                </h3>
+                <h3 class="Size">
+                    32 x 24 inches
+                </h3>
+            </div>
+        </div>
+        <div id="StillLife" class="ArtPopUp">
+            <div class="ArtDescription">
+                <a class="HideDescription" href="#a5">&times;</a>
+                <img class="popupImg" src="./images/artwork/Paintings/StillLife.jpg">
+                <h2 class="Title">
+                    <i>Untitled Still Life</i>, 2025
+                </h2>
+                <h3 class="Medium">
+                    Oil on paper
+                </h3>
+                <h3 class="Size">
+                    18 x 24 inches
+                </h3>
+            </div>
+        </div>
+        <div id="Boxes" class="ArtPopUp">
+            <div class="ArtDescription">
+                <a class="HideDescription" href="#a6">&times;</a>
+                <img class="popupImg" src="./images/artwork/Paintings/Vis80_collagePortrait.jpg">
+                <h2 class="Title">
+                    <i>Untitled Self Portrait</i>, 2022
+                </h2>
+                <h3 class="Medium">
+                    Acrylic and charcoal on paper
+                </h3>
+                <h3 class="Size">
+                    12 x 16 inches
+                </h3>
+            </div>
+        </div>
+
+             <!--Drawing Popups -->
+        <div id="HandInMouth" class="ArtPopUp">
+            <div class="ArtDescription">
+                <a class="HideDescription" href="#a7">&times;</a>
+                <img class="popupImg" src="./images/artwork/Drawings/HandInMouthCropped.jpg">
+                <h2 class="Title">
+                    <i>Hand in Mouth Disease</i>, 2024
+                </h2>
+                <h3 class="Medium">
+                    Charcoal on paper
+                </h3>
+                <h3 class="Size">
+                    18 x 24 inches
+                </h3>
+            </div>
+        </div>
+
+        <div id="Tikes" class="ArtPopUp">
+            <div class="ArtDescription">
+                <a class="HideDescription" href="#a8">&times;</a>
+                <img class="popupImg" src="./images/artwork/Drawings/littletikes.jpg">
+                <h2 class="Title">
+                    <i>Untitled</i>, 2024
+                </h2>
+                <h3 class="Medium">
+                    Graphite on paper
+                </h3>
+                <h3 class="Size">
+                    24 x 18 inches
+                </h3>
+            </div>
+        </div>
+
+        <div id="Meteor" class="ArtPopUp">
+            <div class="ArtDescription">
+                <a class="HideDescription" href="#a9">&times;</a>
+                <img class="popupImg" src="./images/artwork/Drawings/Breakneck.jpg">
+                <h2 class="Title">
+                    <i>Meteor Shower</i>, 2022
+                </h2>
+                <h3 class="Medium">
+                    Charcoal and oil pastel on paper
+                </h3>
+                <h3 class="Size">
+                    24 x 18 inches
+                </h3>
+            </div>
+        </div>
+
+        <div id="Cranes" class="ArtPopUp">
+            <div class="ArtDescription">
+                <a class="HideDescription" href="#a10">&times;</a>
+                <img class="popupImg" src="./images/artwork/Drawings/cranes.jpg">
+                <h2 class="Title">
+                    <i>Cranes</i>, 2022
+                </h2>
+                <h3 class="Medium">
+                    Ink on paper
+                </h3>
+                <h3 class="Size">
+                    24 x 18 inches
+                </h3>
+            </div>
+        </div>
+
+        <div id="Nonno" class="ArtPopUp">
+            <div class="ArtDescription">
+                <a class="HideDescription" href="#a11">&times;</a>
+                <img class="popupImg" src="./images/artwork/Drawings/nonno.jpg">
+                <h2 class="Title">
+                    <i>Wine Press</i>, 2022
+                </h2>
+                <h3 class="Medium">
+                    Graphite on paper
+                </h3>
+                <h3 class="Size">
+                    18 x 24 inches
+                </h3>
+            </div>
+        </div>
+
+        <div id="3Portrait" class="ArtPopUp">
+            <div class="ArtDescription">
+                <a class="HideDescription" href="#a12">&times;</a>
+                <img class="popupImg" src="./images/artwork/Drawings/3Portrait.jpg">
+                <h2 class="Title">
+                    <i>3-Portrait</i>, 2022
+                </h2>
+                <h3 class="Medium">
+                    Charcoal on paper
+                </h3>
+                <h3 class="Size">
+                    10 x 12 inches
+                </h3>
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>
