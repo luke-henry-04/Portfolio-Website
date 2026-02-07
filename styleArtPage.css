@@ -6,7 +6,7 @@
         background-image: url("./images/background_headers/Final/ArtPage.svg");
         background-position: left top;
         background-repeat:no-repeat;
-        background-size: auto 100dvh;
+        background-size: auto 100lvh;
         background-color: #FCF8DA;
 
         margin: 0;
@@ -38,38 +38,36 @@
         text-decoration:none;
         text-align: left center;
         
-        width: 100dvw;
-        height:12dvh;
-        top:12dvh;
+        width: 100lvw;
+        height:12lvh;
+        top:12lvh;
         margin:0;
-        margin-left:13.5dvh;
+        margin-left:13.5lvh;
         color: #FCF8DA;
         position:absolute;
-        font-size: min(6.75dvw, 9.75dvh);
-        letter-spacing:0dvh;
+        font-size: min(6.75lvw, 9.75lvh);
+        letter-spacing:0lvh;
         
     }
 
-    #Portfolio{
-        text-decoration:none;
-        left: calc(16.5dvw - 20dvh);
-        top:25dvh;
-        margin:0;
-        color:#2b2b2b;
-        position:absolute;
-        font-size: 16.5dvh;
-        letter-spacing:0dvh;
-        text-align: right;
+    #Home{
+        position: absolute;
+        left: calc(100lvw - 10lvh);
+        top:0lvh;
+        text-decoration: none;
+        font-size: 8lvh;
+        color:#c94144;
+
     }
 
     #bgSideBar{
         position:absolute;
-        top:30dvh;
-        bottom: -25dvh; 
-        left: 8.12dvh;
+        top:30lvh;
+        bottom: -25lvh; 
+        left: 8.12lvh;
        
         background-color: #2b2b2b;
-        width: 1.4dvh;
+        width: 1.4lvh;
         overflow: hidden;
         
     }
@@ -79,23 +77,23 @@
     #Tabs{
         display:flex;
         flex-wrap: wrap;
-        width: 80dvw;
+        width: 80lvw;
 
         position:relative; 
         text-decoration:none;
-        left: 17dvh;
-        top:27dvh;
+        left: 17lvh;
+        top:27lvh;
         color:#2b2b2b;
-        font-size: min(3dvw,3dvh);
+        font-size: min(3lvw,3lvh);
         
         
     }
 
     .Label{
         padding: 0;
-        padding-right:5dvh;
+        padding-right:5lvh;
         cursor: pointer;
-        margin-bottom: 2dvh;
+        margin-bottom: 2lvh;
         text-align: left;
         
     }
@@ -107,8 +105,8 @@
     .ArtGrid{
         order:1;
         width: 100%;
-        margin-bottom:6dvh;
-        /*border: 1.5dvh solid #2b2b2b;
+        margin-bottom:6lvh;
+        /*border: 1.5lvh solid #2b2b2b;
        */
         line-height: 1.5;
         display: none;
@@ -116,7 +114,7 @@
 
     .tablinks:checked+.Label{
         color:#c94144;
-        border-bottom: 1dvh solid #c94144;
+        border-bottom: 1lvh solid #c94144;
 
     }
 
@@ -132,9 +130,9 @@
 
     .gridImg{
        
-        margin: 2dvh;
-        height:60dvh;
-        border: 1dvh solid #2b2b2b;
+        margin: 2lvh;
+        height:60lvh;
+        border: 1lvh solid #2b2b2b;
         
     }
 
@@ -147,10 +145,10 @@
         -moz-transform: translate(-50%,-50%) rotate(-20deg);
         -o-transform: translate(-50%,-50%) rotate(-20deg);
         transform: translate(-50%,-50%) rotate(-20deg);
-        top: calc(2*min(2dvw, 4.1dvh));
-        font-size: min(2dvw, 4.1dvh);
-        left: 95dvw;
-        text-shadow: 0.2dvh 0.2dvh 0.1dvh #FCF8DA;
+        top: calc(2*min(2lvw, 4.1lvh));
+        font-size: min(2lvw, 4.1lvh);
+        left: 95lvw;
+        text-shadow: 0.2lvh 0.2lvh 0.1lvh #FCF8DA;
     }
 
 
@@ -190,29 +188,29 @@
         position:relative;
         margin: 0;
         margin-left:5vw;
-        margin-top:1dvh;
-        font-size: 4dvh;
+        margin-top:1lvh;
+        font-size: 4lvh;
     }
 
     .Medium{
         position:relative;
         margin: 0;
         margin-left:5vw;
-         margin-top:1dvh;
-        font-size: 3dvh;
+         margin-top:1lvh;
+        font-size: 3lvh;
     }
 
     .Size{
         position:fixed;
         margin: 0;
         margin-left:5vw;
-       margin-top:1dvh;
-        font-size: 3dvh;
+       margin-top:1lvh;
+        font-size: 3lvh;
     }
 
     .popupImg{
-        height: 65dvh;
+        height: 65lvh;
         margin-left:5vw;
         margin-top:5vh;
-        border: solid 1.5dvh #2b2b2b;
+        border: solid 1.5lvh #2b2b2b;
     }
