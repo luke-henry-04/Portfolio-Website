@@ -1,4 +1,19 @@
-@media screen and (orientation: portrait) {
+.closeImg{
+    width:100%;
+    height:100%;
+    background-color: #FCF8DA;
+}
+
+#Home{
+    
+    position:absolute;
+    width: min(3dvw,3dvh);
+    height:min(3dvw,3dvh);
+    
+}
+
+
+@media (orientation: portrait) {
 body{
     background-image: url("../images/background_headers/Final/ProjectPage_Portrait.svg");
     background-position: top center;
@@ -13,6 +28,10 @@ body{
    
 }
 
+#Home{
+    left: calc(100dvw - 3*min(3dvw,3dvh));
+    top:31vw;
+}
 
 .project{
     line-height: 5vw;
@@ -97,12 +116,13 @@ a{
 
 }
 
-@media screen and (orientation: landscape) {
+@media (orientation: landscape) {
+    
 body{
     background-image: url("../images/background_headers/Final/ProjectPage_Landscape_Left.svg");
     background-position: top left;
 
-    @media screen and (max-height: 70.098dvw) {
+    @media (aspect-ratio>1.4088) {
          background-image: url("../images/background_headers/Final/ProjectPage_Landscape_Left.svg"),url("../images/background_headers/Final/ProjectPage_Landscape_Right.svg");
 
          background-position: top left, top right;
@@ -117,6 +137,13 @@ body{
    
 }
 
+#Home{
+    left: calc(85dvw - 3*min(3dvw,3dvh));
+    @media (aspect-ratio<1.4088) {
+        left: calc(100dvw - 3*min(3dvw,3dvh));
+    }
+    top:0;
+}
 
 .project{
     line-height: 5vh;
