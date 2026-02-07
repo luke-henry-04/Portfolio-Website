@@ -6,7 +6,7 @@
         background-image: url("./images/background_headers/Final/ArtPage.svg");
         background-position: left top;
         background-repeat:no-repeat;
-        background-size: auto 100svh;
+        background-size: auto 100lvh;
         background-color: #FCF8DA;
 
         margin: 0;
@@ -38,36 +38,36 @@
         text-decoration:none;
         text-align: left center;
         
-        width: 100svw;
-        height:12svh;
-        top:12svh;
+        width: 100lvw;
+        height:12lvh;
+        top:12lvh;
         margin:0;
-        margin-left:13.5svh;
+        margin-left:13.5lvh;
         color: #FCF8DA;
         position:absolute;
-        font-size: min(6.75svw, 9.75svh);
-        letter-spacing:0svh;
+        font-size: min(6.75lvw, 9.75lvh);
+        letter-spacing:0lvh;
         
     }
 
     #Home{
         position: absolute;
-        left: calc(100svw - 10svh);
-        top:0svh;
+        left: calc(100lvw - 10lvh);
+        top:0lvh;
         text-decoration: none;
-        font-size: 8svh;
+        font-size: 8lvh;
         color:#c94144;
 
     }
 
     #bgSideBar{
         position:absolute;
-        top:30svh;
-        bottom: -25svh; 
-        left: 8.12svh;
+        top:30lvh;
+        bottom: -25lvh; 
+        left: 8.12lvh;
        
         background-color: #2b2b2b;
-        width: 1.4svh;
+        width: 1.4lvh;
         overflow: hidden;
         
     }
@@ -77,23 +77,23 @@
     #Tabs{
         display:flex;
         flex-wrap: wrap;
-        width: 80svw;
+        width: 80lvw;
 
         position:relative; 
         text-decoration:none;
-        left: 17svh;
-        top:27svh;
+        left: 17lvh;
+        top:27lvh;
         color:#2b2b2b;
-        font-size: min(3svw,3svh);
+        font-size: min(3lvw,3lvh);
         
         
     }
 
     .Label{
         padding: 0;
-        padding-right:5svh;
+        padding-right:5lvh;
         cursor: pointer;
-        margin-bottom: 2svh;
+        margin-bottom: 2lvh;
         text-align: left;
          line-height: 1.5;
         
@@ -106,8 +106,8 @@
     .ArtGrid{
         order:1;
         width: 100%;
-        margin-bottom:6svh;
-        /*border: 1.5svh solid #2b2b2b;
+        margin-bottom:6lvh;
+        /*border: 1.5lvh solid #2b2b2b;
        */
         line-height: 1.5;
         display: none;
@@ -115,7 +115,7 @@
 
     .tablinks:checked+.Label{
         color:#c94144;
-        border-bottom: 1svh solid #c94144;
+        border-bottom: 1lvh solid #c94144;
 
     }
 
@@ -131,14 +131,14 @@
 
     .gridImg{
        
-        margin: 2svh;
-        max-width: 60svw;
-        max-height: 60svh;
+        margin: 2lvh;
+        max-width: 60lvw;
+        max-height: 60lvh;
         height: auto;
         width: auto;
         display: block;
         object-fit: contain;
-        border: 1svh solid #2b2b2b;
+        border: 1lvh solid #2b2b2b;
         
     }
 
@@ -151,10 +151,10 @@
         -moz-transform: translate(-50%,-50%) rotate(-20deg);
         -o-transform: translate(-50%,-50%) rotate(-20deg);
         transform: translate(-50%,-50%) rotate(-20deg);
-        top: calc(2*min(2svw, 4.1svh));
-        font-size: min(2svw, 4.1svh);
-        left: 95svw;
-        text-shadow: 0.2svh 0.2svh 0.1svh #FCF8DA;
+        top: calc(2*min(2lvw, 4.1lvh));
+        font-size: min(2lvw, 4.1lvh);
+        left: 95lvw;
+        text-shadow: 0.2lvh 0.2lvh 0.1lvh #FCF8DA;
     }
 
 
@@ -194,34 +194,34 @@
         position:relative;
         margin: 0;
         margin-left:5vw;
-        margin-top:1svh;
-        font-size: 4svh;
+        margin-top:1lvh;
+        font-size: 4lvh;
     }
 
     .Medium{
         position:relative;
         margin: 0;
         margin-left:5vw;
-         margin-top:1svh;
-        font-size: 3svh;
+         margin-top:1lvh;
+        font-size: 3lvh;
     }
 
     .Size{
         position:fixed;
         margin: 0;
         margin-left:5vw;
-       margin-top:1svh;
-        font-size: 3svh;
+       margin-top:1lvh;
+        font-size: 3lvh;
     }
 
     .popupImg{
-        max-height: calc(75svh - 5svw);
-        max-width: 72svw;
+        max-height: calc(75lvh - 5lvw);
+        max-width: 72lvw;
         width:auto;
         height:auto;
-        margin-left:5svw;
-        margin-top:5svw;
-        border: solid 1.5svh #2b2b2b;
+        margin-left:5lvw;
+        margin-top:5lvw;
+        border: solid 1.5lvh #2b2b2b;
     }
 }
 
@@ -234,7 +234,7 @@
         background-image: url("./images/background_headers/Final/ArtPage_Portrait.svg");
         background-position: left top;
         background-repeat:no-repeat;
-        background-size: auto 30svw;
+        background-size: auto 30lvw;
         background-color: #FCF8DA;
 
         margin: 0;
@@ -266,24 +266,24 @@
         text-decoration:none;
         text-align: left center;
         
-        width: 86svw;
-        height:12svw;
-        top:13.75svw;
+        width: 86lvw;
+        height:12lvw;
+        top:13.75lvw;
         margin:0;
-        margin-left:13.5svw;
+        margin-left:13.5lvw;
         color: #FCF8DA;
         position:absolute;
-        font-size: min(6.75svw, 9.75svh);
+        font-size: min(6.75lvw, 9.75lvh);
         
         
     }
 
     #Home{
         position: absolute;
-        left: 87svw;
-        top:-1svw;
+        left: 87lvw;
+        top:-1lvw;
         text-decoration: none;
-        font-size: 10svw;
+        font-size: 10lvw;
         color:#c94144;
 
     }
@@ -298,30 +298,30 @@
     #Tabs{
         display:flex;
         flex-wrap: wrap;
-        width: 90svw;
+        width: 90lvw;
 
         position:relative; 
         text-decoration:none;
-        left: 6svw;
-        top:30svw;
+        left: 6lvw;
+        top:30lvw;
         color:#2b2b2b;
-        font-size: 2.75svw;
+        font-size: 2.75lvw;
         
         
     }
 
     .Label{
         padding: 0;
-        padding-right:5svw;
+        padding-right:5lvw;
         cursor: pointer;
-        margin-bottom: 2svw;
+        margin-bottom: 2lvw;
         text-align: left;
         line-height: 1.5;
         
     }
 
     label[for=Paintings]{
-        margin-left:5svw;
+        margin-left:5lvw;
     }
 
     .tablinks{
@@ -331,7 +331,7 @@
     .ArtGrid{
         order:1;
         width: 100%;
-        margin-bottom:10svw;
+        margin-bottom:10lvw;
      
         line-height: 1.5;
         display: none;
@@ -339,7 +339,7 @@
 
     .tablinks:checked+.Label{
         color:#c94144;
-        border-bottom: 1svw solid #c94144;
+        border-bottom: 1lvw solid #c94144;
 
     }
 
@@ -355,21 +355,21 @@
 
     .gridImg{
       
-        margin: 2svw;
+        margin: 2lvw;
         margin-left:0;
-         max-width: 70svw;
-         max-height: 60svh;
+         max-width: 70lvw;
+         max-height: 60lvh;
          width: auto;
          height:auto;
         display: block;
-        border: 1.5svw solid #2b2b2b;
+        border: 1.5lvw solid #2b2b2b;
         
     }
 
 
     .ArtPopUp{
-        width: 100svw;
-        height: 100svh;
+        width: 100lvw;
+        height: 100lvh;
         top:0;
         left:0;
         position: fixed;
@@ -386,50 +386,50 @@
         position: fixed;
         text-decoration: none;
         color:#FCF8DA;
-        left:92svw;
+        left:92lvw;
         top:0;
-        font-size: 5svw;
+        font-size: 5lvw;
     }
 
     .ArtDescription{
         position:relative;
-        width: 85svw;
+        width: 85lvw;
         background:#FCF8DA;
-        left:5svw;
-        height:100svh;
+        left:5lvw;
+        height:100lvh;
     }
 
     .Title{
         position:relative;
         margin: 0;
         margin-left:2vw;
-        margin-top:2svw;
-        font-size: 4svw;
+        margin-top:2lvw;
+        font-size: 4lvw;
     }
 
     .Medium{
         position:relative;
         margin: 0;
-        margin-left:2svw;
-         margin-top:0.5svw;
-        font-size: 3svw;
+        margin-left:2lvw;
+         margin-top:0.5lvw;
+        font-size: 3lvw;
     }
 
     .Size{
         position:relative;
         margin: 0;
-        margin-left:2svw;
-       margin-top:0.5svw;
-        font-size: 3svw;
+        margin-left:2lvw;
+       margin-top:0.5lvw;
+        font-size: 3lvw;
     }
 
     .popupImg{
-        max-height: 65svh;
+        max-height: 65lvh;
         max-width: 77lvw;
         width:auto;
         height:auto;
-        margin-left:2svw;
-        margin-top:5svw;
-        border: solid 2svw #2b2b2b;
+        margin-left:2lvw;
+        margin-top:5lvw;
+        border: solid 2lvw #2b2b2b;
     }
 }
