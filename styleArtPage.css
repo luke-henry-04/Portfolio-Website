@@ -139,9 +139,9 @@
     #Home{
         left: calc(100lvw - 11lvh);
         top:0lvh;
-        top:2lvh;
-        width:7lvh;
-        height:7lvh;
+        top:3lvh;
+        width:5lvh;
+        height:5lvh;
     }
 
     #bgSideBar{
@@ -242,10 +242,10 @@
     }
 
     #Home{
-        left: 89lvw;
-        top:2lvw;
-        width:7lvw;
-        height:7lvw;
+        left: 90lvw;
+        top:3lvw;
+        width:5lvw;
+        height:5lvw;
     }
 
     #bgSideBar{

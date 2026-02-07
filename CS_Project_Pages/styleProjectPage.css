@@ -7,8 +7,8 @@
 #Home{
     
     position:absolute;
-    width: min(3dvw,3dvh);
-    height:min(3dvw,3dvh);
+    width: min(3.5dvw,3.5dvh);
+    height:min(3.5dvw,3.5dvh);
     
 }
 
@@ -29,7 +29,7 @@ body{
 }
 
 #Home{
-    left: calc(100dvw - 3*min(3dvw,3dvh));
+    left: calc(100dvw - 3*min(3.5dvw,3.5dvh));
     top:31vw;
 }
 
@@ -127,7 +127,7 @@ body{
 
          background-position: top left, top right;
     }
-    background-size: 15vw auto;
+    background-size: 15dvw auto;
     background-repeat:repeat-y;
    
     background-color: #FCF8DA;
@@ -138,9 +138,9 @@ body{
 }
 
 #Home{
-    left: calc(85dvw - 3*min(3dvw,3dvh));
+    left: calc(83dvw - 3*min(3.5dvw,3.5dvh));
     @media (aspect-ratio<1.4088) {
-        left: calc(100dvw - 3*min(3dvw,3dvh));
+        left: calc(100dvw - 3*min(3.5dvw,3.5dvh));
     }
     top:0;
 }

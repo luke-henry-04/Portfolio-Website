@@ -6,10 +6,10 @@
 
 #Home{
     position:absolute;
-    left: calc(100dvw - 3*min(3dvw,3dvh));
+    left: calc(100dvw - 3*min(3.5dvw,3.5dvh));
     top:0;
-    width: min(3dvw,3dvh);
-    height:min(3dvw,3dvh);
+    width: min(3.5dvw,3.5dvh);
+    height:min(3.5dvw,3.5dvh);
 }
 
 @media (orientation: portrait) {
