@@ -1,5 +1,5 @@
 
-@media screen and (orientation: portrait) {
+@media (orientation: portrait) {
     body {
         background-image: url("./images/background_headers/Final/CSPage_Portrait.svg");
     
@@ -145,7 +145,7 @@
 
 }
 
-@media screen and (orientation: landscape) {
+@media (orientation: landscape) {
     body{
          background-image: url("./images/background_headers/Final/CSPage_Landscape_left.svg");
         background-size: calc(16.5dvw - 10dvh) 45dvh;

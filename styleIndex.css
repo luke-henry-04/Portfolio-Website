@@ -1,4 +1,4 @@
-@media screen and (orientation: landscape) {
+@media (orientation: landscape) {
     body{
         height: 100svh;
         width:100svw;
@@ -131,7 +131,7 @@
 
 }
 
-@media screen and (orientation: portrait) {
+@media (orientation: portrait) {
     body{
         height: 100svh;
         width:100svw;
