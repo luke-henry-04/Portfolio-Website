@@ -14,15 +14,9 @@
         <h4 class="project_date">March 2024 - Present</h4>
         <h4 class="project_languages">x86 Assembly</h4>
         <strong class="project_description">
-            I started a low level development project in my spare time to better understand the interation between software and hardware. The project aims to use Intel's x86 Software Developer's Manual (SDM) as a primary reference for writing programs that can directly use the x86 architecture without taking any abstractions for granted.
+            I started a low-level development project to better understand how software interacts directly with hardware, using Intel’s x86 Software Developer’s Manual as my primary reference. The goal was to work directly with the x86 architecture, taking as few abstractions for granted as possible.
             <br><br>
-            I began by writing 16-bit real mode programs directly in the MBR partition on a hard drive. This gave me an understanding of the firmware's boot sequence and BIOS interrupts. 
-            Initial programs involved writing text to the screen from keyboard input 
-            and coloring pixels in VGA graphics mode. They were written in x86 assembly and compiled to machine code on paper using the SDM, then entered into a hex editor and written directly to a hard drive. 
-            <br><br>
-            Building on what I learned about BIOS interrupts and segmented memory addressing, I then developed a custom MBR bootloader in assembly. It loads a kernel file into memory from disk, sets up a Global Descriptor Table, and switches the processor into 32-bit protected mode before transferring control. 
-            <br><br>
-           To test the bootloader and gain experience with 32-bit assembly, I developed 32-bit programs, loaded and run from disk by the bootloader, that experiment with accessing a larger range of memory, performing keyboard and disk I/O through ports instead of BIOS interrupts, and basic kernel functionality like setting up an interrupt table. Current work is aimed at developing a minimal kernel that can run and schedule programs. 
+            I began by writing 16-bit real-mode programs directly to the MBR, testing the BIOS interrupts, segmented memory, and VGA output using hand-assembled x86 machine code. Building on this, I developed a custom MBR bootloader that loads a kernel from disk, sets up a GDT, and switches the CPU into 32-bit protected mode. From there, I’ve been developing 32-bit programs that handle port IO and extended memory, and I plan to build a minimal kernel that schedules programs and manages a filesystem.
             <br><br>
            <p>The project's source code is available on <a href="https://github.com/luke-henry-04/OSDevProject" target="_blank">GitHub.</a></p>
            <br><br>
@@ -33,7 +27,7 @@
         <img src="../images/ProjectPages/LowLevelDev/HelloWorld.jpg">
         <strong class="caption">(Hello World 16-bit MBR program)</strong>
         <img src="../images/ProjectPages/LowLevelDev/shoebill.jpg">
-        <strong class="caption">(7.3 KB ASCII art program loaded into memory from bootloader)</strong>
+        <strong class="caption">(32-bit 7.3 KB ASCII art program loaded into memory from bootloader)</strong>
         <br><br>
 
 

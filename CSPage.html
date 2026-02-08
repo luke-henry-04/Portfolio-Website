@@ -26,28 +26,10 @@
                 <h4 class="project_date">Feb 2025 - Present</h4>
                 <h4 class="project_languages">HTML, CSS</h4>
                 <strong class="project_description">
-                    A responsive portfolio website to host my Computer Science and Visual Arts portfolios (artwork side in progress), with an adaptable layout supporting different screen sizes and orientations. It is written in HTML and CSS, hosted through GitHub pages. The design is inspired by early 20th century Bauhaus design principles. 
+                    A portfolio website to host my Computer Science and Visual Arts portfolios, with an adaptable layout supporting different screen sizes and orientations. It is written in HTML and CSS, hosted through GitHub pages. The design is inspired by the early 20th century Bauhaus movement. 
                     <div style="color:#611800;">
                         <p>The source code is available on <a href="https://github.com/luke-henry-04/Website" target="_blank">GitHub.</a>
                         </p>
-                    </div>
-                </strong>
-            </div>
-        </div>
-
-        <div class="project">
-            <div class="project_img"><img src="images/cs_projects/shoebill.jpg"></div>
-            <div class="project_text">
-                <hr>
-                <h2 class="project_title">x86 Legacy Bootloader</h2>
-                <h4 class="project_date">March 2024 - Present</h4>
-                <h4 class="project_languages">Intel x86, C</h4>
-                <strong class="project_description">
-                    A custom MBR bootloader written in x86 assembly that loads a kernel file into memory from disk, sets up a Global Descriptor Table, and switches the CPU into 32-bit protected mode before transferring control.
-                    This is part of an independent study into low-level development using Intel's x86 Software Developer's Manual as a primary reference. Current work focuses on developing a minimimal operating system that can run and schedule programs.  
-                    <p><a href="./CS_Project_Pages/LowLevelDev.html"  >Learn more...</a></p>
-                    <div style="color:#611800;">
-                        <p>The project's Github repository is available <a href="https://github.com/luke-henry-04/OSDevProject" target="_blank">here.</a></p>
                     </div>
                 </strong>
             </div>
@@ -70,7 +52,7 @@
                         <ul>
                             • Core Features: Anti-aliasing, Cosine importance sampling, Analytic direct lighting, Blinn-Phong shading, Monte Carlo pathtracing
                              <br><br>
-                            •Advanced Features:  BVH Acceleration, GGX shading with BRDF importance sampling, Nearest event estimation, Russian roulette path termination, Multiple importance sampling, Fluid simulation, Volumetric rendering
+                            •Advanced Features:  BVH Acceleration, GGX shading with BRDF importance sampling, Nearest event estimation, Russian roulette path termination, Fluid simulation, Volumetric rendering
                         </ul>
                     </details>
                 
@@ -87,10 +69,28 @@
                 <h4 class="project_date">June 2025</h4>
                 <h4 class="project_languages">C++</h4>
                 <strong class="project_description">
-                    An integrator for the above pathtracer enabling a smoke simulation with volumetric rendering. It uses a semi-Lagrangian, grid-based method to approximate and discretize the Navier-Stokes equations for incompressible fluids with constant viscosity. Advanced techniques include a Conjugate Gradient pressure solver, monotonic cubic interpolation, and the Henyey-Greenstein phase function for realistic light scattering. 
+                    An integrator for the above pathtracer enabling a smoke simulation with volumetric rendering. It uses a semi-Lagrangian, grid-based method to approximate the Navier-Stokes equations for incompressible fluids. Advanced techniques include a Conjugate Gradient pressure solver, monotonic cubic interpolation, and the Henyey-Greenstein phase function for realistic light scattering. 
                 
                     <p>
                     <a href="https://lukehenry04.github.io/CSE168_websites/FinalWriteup.html" target="_blank" >A detailed writeup is available here</a> with images and animations documenting the process and techniques. The project was recognized by the professor as one of the top 4 open-ended final projects in the course.</p>
+                </strong>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project_img"><img src="images/cs_projects/shoebill.jpg"></div>
+            <div class="project_text">
+                <hr>
+                <h2 class="project_title">x86 Legacy Bootloader</h2>
+                <h4 class="project_date">March 2024 - Present</h4>
+                <h4 class="project_languages">Intel x86</h4>
+                <strong class="project_description">
+                    A custom MBR bootloader written in x86 assembly that loads a kernel file into memory from disk, sets up a Global Descriptor Table, and switches the CPU into 32-bit protected mode before transferring control.
+                    This is part of a larger independent study into low-level development using Intel's x86 Software Developer's Manual as a primary reference. Future plans involve developing a minimimal kernel that can run and schedule programs from disk.  
+                    <p><a href="./CS_Project_Pages/LowLevelDev.html"  >Learn more...</a></p>
+                    <div style="color:#611800;">
+                        <p>The project's Github repository is available <a href="https://github.com/luke-henry-04/OSDevProject" target="_blank">here.</a></p>
+                    </div>
                 </strong>
             </div>
         </div>
@@ -103,8 +103,9 @@
                 <h4 class="project_date">Nov 2024 - Present</h4>
                 <h4 class="project_languages">Arduino (C++), CAD</h4>
                 <strong class="project_description">
-                   A system to measure and display propeller RPM for UCSD's Human Powered Submarine Club. A Hall effect sensor reads the magnetic field from a rotating cuff around the propeller shaft, sending it to an arduino which calculates the RPM and displays it on the pilot's LCD screen. The sensor is attached via a 3D printed mount, with multiple design iterations to fit within limited space constraints and facilitate installation in hard-to-reach spots.
-                   <p> A custom scheduler divides CPU resources between the sub's different sensors to ensure accurate RPM readings, preempting with a best estimate when other sensors have been waiting for new readings.
+                   A system to measure and display propeller RPM for UCSD's Human Powered Submarine Club. A Hall effect sensor reads the magnetic field from a rotating cuff around the propeller shaft, sending it to an arduino which calculates the RPM and displays it on the pilot's LCD screen. The sensor is attached via a 3D printed mount, designed to fit within tight space constraints.
+
+                   <p> A custom scheduler divides CPU resources between the sub's different sensors to ensure accurate RPM readings, preempting with a best estimate when needed.
                     </p>
                     <div style="color:#611800;">
                         <!--<p><a href="./CS_Project_Pages/HPS.html"  > View designs...</a></p>-->
@@ -122,8 +123,8 @@
                 <h4 class="project_date">Nov 2024</h4>
                 <h4 class="project_languages">Python Blender API, Processing 4 (java), JSON</h4>
                 <strong class="project_description">
-                    I wrote scripts that take data from a 3D model in Blender and generate an SVG image of the model's triangles with numbered vertices. A laser cutter can use the SVG file to cut out and engrave thin triangles that can be assembled into a physical, to-scale sculpture of the original 3D model. I used it to laser cut a 3D model out of plywood, which I assembled together as the frame of a project for my sculpture studio.   
-                    <p><a href="./CS_Project_Pages/Blender.html" >learn more...</a></p>
+                    Scripts that take data from a 3D model in Blender and generate an SVG image of the model's triangles with numbered vertices. A laser cutter can use the SVG file to cut out and engrave thin triangles that can be assembled into a physical, to-scale sculpture of the original 3D model. I've used it to laser cut 3D models out wood for sculptural projects.   
+                    <p><a href="./CS_Project_Pages/Blender.html" >Learn more...</a></p>
                 </strong>
             </div>
         </div>
@@ -139,7 +140,7 @@
                     I participated the Ludum Dare 56 game jam in October 2024. I made a small game around the theme "Tiny Creatures" over the course of a weekend using Unity game engine.
                     <br><br>
                     <div style="color:#611800;">
-                        The game is hosted on <a href="https://muchoswaffles.itch.io/desk-jobs" target="_blank">itch.io</a>, as are most of my gamedev projects.<br>The github repository is available <a href="https://github.com/luke-henry-04/LudumDare56-TinyCreatures" target="_blank">here.</a>
+                        The game is hosted on <a href="https://muchoswaffles.itch.io/desk-jobs" target="_blank">itch.io</a>, as are most of <a href="https://crabs3.itch.io/" target="_blank" >my other gamedev projects.</a><br>The github repository is available <a href="https://github.com/luke-henry-04/LudumDare56-TinyCreatures" target="_blank">here.</a>
                     </div>
                 </strong>
             </div>
