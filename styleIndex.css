@@ -1,4 +1,4 @@
-@media (orientation: landscape) {
+@media (aspect-ratio>1.2) {
     body{
         height: 100svh;
         width:100svw;
@@ -54,6 +54,18 @@
         text-align: right;
     }
 
+    #bio{
+        
+        position: absolute;
+        left:calc(50svw - 58svh);
+        top: 15svh;
+       width:40svh;
+
+      letter-spacing: 0.1svh;
+       line-height: 110%;
+        text-align: left;
+        font-size: 2.5svh;
+    }
 
     #cs_button{
         -webkit-transform: translate(-50%,-50%) rotate(-45deg);
@@ -131,7 +143,7 @@
 
 }
 
-@media (orientation: portrait) {
+@media (aspect-ratio<=1.2) {
     body{
         height: 100svh;
         width:100svw;
@@ -184,6 +196,19 @@
         font-size:  7svw;
         margin:0;
         text-align: right;
+    }
+
+     #bio{
+        
+        position: absolute;
+        left:2svw;
+        top: calc(50svh - 17svw);
+       width:40svw;
+
+      letter-spacing: 0.1svw;
+       line-height: 110%;
+        text-align: left;
+        font-size: 2svw;
     }
 
 
