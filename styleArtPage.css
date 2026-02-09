@@ -13,7 +13,7 @@
 
 #Page{
     position:relative;
-    min-height: 100vh;
+    min-height: 100svh;
 }
 
 #VisualArts{
@@ -73,7 +73,7 @@
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-evenly;
-    gap: clamp(1rem, 3lvw, 3rem);
+    gap: clamp(1rem, 3svw, 3rem);
 }
 
 .gridImg{  
@@ -83,8 +83,8 @@
 }
 
 .ArtPopUp{
-    width: 100lvw;
-    height: 500lvh;
+    width: 100svw;
+    height: 500svh;
     top:0;
     left:0;
     position: fixed;
@@ -98,18 +98,18 @@
 
 .HideDescription{
     position: fixed;
-    left:93lvw;
-    top:2lvw;
-    width:2.5lvw;
-    height:2.5lvw; 
+    left:93svw;
+    top:2svw;
+    width:2.5svw;
+    height:2.5svw; 
 }
 
 .ArtDescription{
     position:relative;
-    width: 85lvw;
+    width: 85svw;
     background:#FCF8DA;
-    left:5lvw;
-    height:500lvh;
+    left:5svw;
+    height:500svh;
 }
 
 
@@ -122,103 +122,103 @@
         background-image: url("./images/background_headers/Final/ArtPage.svg");
         background-position: left top;
         background-repeat:no-repeat;
-        background-size: auto 100lvh;    
+        background-size: auto 100svh;    
     }
     #VisualArts{
-        width: 100lvw;
-        height:12lvh;
-        top:12lvh;
+        width: 100svw;
+        height:12svh;
+        top:12svh;
         margin:0;
-        margin-left:13.5lvh;
+        margin-left:13.5svh;
         
-        font-size: min(6.75lvw, 9.75lvh);
-        letter-spacing:0lvh;
+        font-size: min(6.75svw, 9.75svh);
+        letter-spacing:0svh;
         
     }
 
     #Home{
-        left: calc(100lvw - 11lvh);
-        top:0lvh;
-        top:3lvh;
-        width:5lvh;
-        height:5lvh;
+        left: calc(100svw - 11svh);
+        top:0svh;
+        top:3svh;
+        width:5svh;
+        height:5svh;
     }
 
     #bgSideBar{
         position:absolute;
-        top:30lvh;
-        bottom: -25lvh; 
-        left: 8.12lvh;
+        top:30svh;
+        bottom: -25svh; 
+        left: 8.12svh;
         background-color: #2b2b2b;
-        width: 1.4lvh;
+        width: 1.4svh;
         overflow: hidden;
         
     }
 
     #Tabs{  
-        width: 80lvw;
+        width: 80svw;
 
-        left: 17lvh;
-        top:27lvh;
+        left: 17svh;
+        top:27svh;
         
-        font-size: min(3lvw,3lvh); 
+        font-size: min(3svw,3svh); 
     }
 
     .Label{
         padding: 0;
-        padding-right:5lvh; 
-        margin-bottom: 2lvh;
+        padding-right:5svh; 
+        margin-bottom: 2svh;
     }
 
     .ArtGrid{
-        margin-bottom:6lvh;
+        margin-bottom:6svh;
     }
 
     .tablinks:checked+.Label{
-        border-bottom: 1lvh solid #c94144;
+        border-bottom: 1svh solid #c94144;
     }
 
     .gridImg{
-        margin: 2lvh;
+        margin: 2svh;
 
-        max-width: 60lvw;
-        max-height: 60lvh;
+        max-width: 60svw;
+        max-height: 60svh;
         
-        border: 1lvh solid #2b2b2b;
+        border: 1svh solid #2b2b2b;
     }
 
     .Title{
         position:relative;
         margin: 0;
-        margin-left:5vw;
-        margin-top:1lvh;
-        font-size: 4lvh;
+        margin-left:5svw;
+        margin-top:1svh;
+        font-size: 4svh;
     }
 
     .Medium{
         position:relative;
         margin: 0;
-        margin-left:5vw;
-         margin-top:1lvh;
-        font-size: 3lvh;
+        margin-left:5svw;
+         margin-top:1svh;
+        font-size: 3svh;
     }
 
     .Size{
         position:fixed;
         margin: 0;
-        margin-left:5vw;
-       margin-top:1lvh;
-        font-size: 3lvh;
+        margin-left:5svw;
+       margin-top:1svh;
+        font-size: 3svh;
     }
 
     .popupImg{
-        max-height: calc(75lvh - 5lvw);
-        max-width: 72lvw;
+        max-height: calc(75svh - 5svw);
+        max-width: 72svw;
         width:auto;
         height:auto;
-        margin-left:5lvw;
-        margin-top:5lvw;
-        border: solid 1.5lvh #2b2b2b;
+        margin-left:5svw;
+        margin-top:5svw;
+        border: solid 1.5svh #2b2b2b;
     }
 }
 
@@ -228,24 +228,24 @@
         background-image: url("./images/background_headers/Final/ArtPage_Portrait.svg");
         background-position: left top;
         background-repeat:no-repeat;
-        background-size: auto 30lvw;
+        background-size: auto 30svw;
     }
  
     #VisualArts{
-        width: 86lvw;
-        height:12lvw;
-        top:13.75lvw;
+        width: 86svw;
+        height:12svw;
+        top:13.75svw;
         margin:0;
-        margin-left:13.5lvw;
+        margin-left:13.5svw;
        
-        font-size: min(6.75lvw, 9.75lvh);
+        font-size: min(6.75svw, 9.75svh);
     }
 
     #Home{
-        left: 90lvw;
-        top:3lvw;
-        width:5lvw;
-        height:5lvw;
+        left: 90svw;
+        top:3svw;
+        width:5svw;
+        height:5svw;
     }
 
     #bgSideBar{
@@ -254,91 +254,91 @@
     }
     
     #Tabs{  
-        width: 90lvw;
+        width: 90svw;
 
-        left: 6lvw;
-        top:30lvw;
+        left: 6svw;
+        top:30svw;
         
-        font-size: 2.75lvw;   
+        font-size: 2.75svw;   
     }
 
     .Label{
         padding: 0;
-        padding-right:5lvw;
+        padding-right:5svw;
         
-        margin-bottom: 2lvw;
+        margin-bottom: 2svw;
     }
 
     label[for=Paintings]{
-        margin-left:5lvw;
+        margin-left:5svw;
     }
 
     .ArtGrid{
-        margin-bottom:10lvw;
+        margin-bottom:10svw;
     }
 
     .tablinks:checked+.Label{
-        border-bottom: 1lvw solid #c94144;
+        border-bottom: 1svw solid #c94144;
     }
 
     .gridImg{
-        margin: 2lvw;
+        margin: 2svw;
         margin-left:0;
 
-        max-width: 70lvw;
-        max-height: 60lvh;
+        max-width: 70svw;
+        max-height: 60svh;
 
-        border: 1.5lvw solid #2b2b2b;   
+        border: 1.5svw solid #2b2b2b;   
     }
 
     .HideDescription{
         position: fixed;
         text-decoration: none;
         color:#FCF8DA;
-        left:92lvw;
+        left:92svw;
         top:0;
-        font-size: 5lvw;
+        font-size: 5svw;
     }
 
     .ArtDescription{
         position:relative;
-        width: 85lvw;
+        width: 85svw;
         background:#FCF8DA;
-        left:5lvw;
-        height:500lvh;
+        left:5svw;
+        height:500svh;
     }
 
     .Title{
         position:relative;
         margin: 0;
-        margin-left:2vw;
-        margin-top:2lvw;
-        font-size: 4lvw;
+        margin-left:2svw;
+        margin-top:2svw;
+        font-size: 4svw;
     }
 
     .Medium{
         position:relative;
         margin: 0;
-        margin-left:2lvw;
-         margin-top:0.5lvw;
-        font-size: 3lvw;
+        margin-left:2svw;
+         margin-top:0.5svw;
+        font-size: 3svw;
     }
 
     .Size{
         position:relative;
         margin: 0;
-        margin-left:2lvw;
-       margin-top:0.5lvw;
-        font-size: 3lvw;
+        margin-left:2svw;
+       margin-top:0.5svw;
+        font-size: 3svw;
     }
 
     .popupImg{
-        max-height: 65lvh;
-        max-width: 77lvw;
+        max-height: 65svh;
+        max-width: 77svw;
         width:auto;
         height:auto;
-        margin-left:2lvw;
-        margin-top:5lvw;
-        border: solid 2lvw #2b2b2b;
+        margin-left:2svw;
+        margin-top:5svw;
+        border: solid 2svw #2b2b2b;
     }
 }
