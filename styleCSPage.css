@@ -6,17 +6,17 @@
 
 #Home{
     position:absolute;
-    left: calc(100dvw - 3*min(3.5dvw,3.5dvh));
+    left: calc(100lvw - 3*min(3.5lvw,3.5lvh));
     top:0;
-    width: min(3.5dvw,3.5dvh);
-    height:min(3.5dvw,3.5dvh);
+    width: min(3.5lvw,3.5lvh);
+    height:min(3.5lvw,3.5lvh);
 }
 
 @media (orientation: portrait) {
     body {
         background-image: url("./images/background_headers/Final/CSPage_Portrait.svg");
     
-        background-size: 100dvw 50dvw;
+        background-size: 100lvw 50lvw;
         background-repeat:no-repeat;
         background-position: top left;
         background-color: #FCF8DA;
@@ -32,25 +32,25 @@
    
     #Software{
         text-decoration:none;
-        left: 21dvw;
-        top:4.5dvw;
+        left: 21lvw;
+        top:4.5lvw;
         margin:0;
         color: #2b2b2b;
         position:absolute;
-        font-size: 14dvw;
-        letter-spacing:0dvw;
+        font-size: 14lvw;
+        letter-spacing:0lvw;
         text-align: right;
     }
 
     #Portfolio{
         text-decoration:none;
-        left: 6dvw;
-        top:24dvw;
+        left: 6lvw;
+        top:24lvw;
         margin:0;
         color:#2b2b2b;
         position:absolute;
-        font-size: 14dvw;
-        letter-spacing:0dvw;
+        font-size: 14lvw;
+        letter-spacing:0lvw;
         text-align: right;
     }
 
@@ -58,21 +58,21 @@
     #Degree{
         position:absolute; 
         text-decoration:none;
-        left: calc(65dvw);
-        top:25dvw;
+        left: calc(65lvw);
+        top:25lvw;
         color:#2b2b2b;
     
-        font-size: 2.25dvw;
+        font-size: 2.25lvw;
         
         text-align: right;
     }
     .grid{
         
         display: grid;
-        grid-template-columns: 80dvw;
-        gap: 25dvw 10dvw;
-        margin-top:50dvw;
-        margin-left:10dvw;
+        grid-template-columns: 80lvw;
+        gap: 25lvw 10lvw;
+        margin-top:50lvw;
+        margin-left:10lvw;
         place-items: center;
     }
 
@@ -86,9 +86,9 @@
     }
 
     .project_img{  
-        width: 50dvw;
-        height:50dvw;
-        margin-top:5dvw;
+        width: 50lvw;
+        height:50lvw;
+        margin-top:5lvw;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -100,52 +100,52 @@
 
     img{
         display: block;
-        height: 45dvw;
-        border:1dvw solid #fcf8da   
+        height: 45lvw;
+        border:1lvw solid #fcf8da   
     }
 
     .project_text{
-        line-height: 5.3dvw;
+        line-height: 5.3lvw;
         display: block;
         order:1;
         color: #2b2b2b;
     }
 
     .project_title{
-        font-size: 5.3dvw;
+        font-size: 5.3lvw;
         margin: 0;
-        padding-bottom: 2dvw;
+        padding-bottom: 2lvw;
         color: #2b2b2b;
     }
 
     .project_date{
         color:#611800;
-        font-size: 3.2dvw;
+        font-size: 3.2lvw;
         margin:0;
     }
     .project_languages{
         color:#611800;
-        font-size: 3.2dvw;
+        font-size: 3.2lvw;
         margin: 0;
-        padding-bottom: 2dvw;
+        padding-bottom: 2lvw;
     }
 
     .project_description{
-        font-size: 3dvw;
+        font-size: 3lvw;
         margin: 0;
         
     }
 
     .back{
         width:95%;
-        font-size: 3.5dvw;
+        font-size: 3.5lvw;
         display: block;
         text-align: right;
         color:#ca060a;
         text-decoration:underline;
-        margin-top:20dvw;
-        margin-bottom: 5dvw;
-        margin-right:30dvw;
+        margin-top:20lvw;
+        margin-bottom: 5lvw;
+        margin-right:30lvw;
     }
 
     a{
@@ -153,7 +153,7 @@
     }
 
     hr{
-        border-top:1.25dvw solid #2b2b2b;
+        border-top:1.25lvw solid #2b2b2b;
     }
 
 }
@@ -161,13 +161,13 @@
 @media (orientation: landscape) {
     body{
          background-image: url("./images/background_headers/Final/CSPage_Landscape_left.svg");
-        background-size: calc(16.5dvw - 10dvh) 45dvh;
+        background-size: calc(16.5lvw - 10lvh) 45lvh;
         background-position: left top;
-        @media screen and (max-height: 70.098dvw) {
+        @media screen and (max-height: 70.098lvw) {
             background-image: url("./images/background_headers/Final/CSPage_Landscape_left.svg"), 
             url(./images/background_headers/Final/CSPage_Landscape_right.svg);
-            background-size: calc(16.5dvw - 10dvh) 45dvh, auto 45dvh;
-            background-position: left top, calc(16.5dvw + 80dvh) top;
+            background-size: calc(16.5lvw - 10lvh) 45lvh, auto 45lvh;
+            background-position: left top, calc(16.5lvw + 80lvh) top;
         }
         background-repeat:no-repeat;
         
@@ -186,25 +186,25 @@
 
     #Software{
         text-decoration:none;
-        left: calc(16.5dvw - 10dvh);
-        top:1.75dvh;
+        left: calc(16.5lvw - 10lvh);
+        top:1.75lvh;
         margin:0;
         color: #2b2b2b;
         position:absolute;
-        font-size: 16.5dvh;
-        letter-spacing:0dvh;
+        font-size: 16.5lvh;
+        letter-spacing:0lvh;
         text-align: right;
     }
 
     #Portfolio{
         text-decoration:none;
-        left: calc(16.5dvw - 10dvh);
-        top:22dvh;
+        left: calc(16.5lvw - 10lvh);
+        top:22lvh;
         margin:0;
         color:#2b2b2b;
         position:absolute;
-        font-size: 16.5dvh;
-        letter-spacing:0dvh;
+        font-size: 16.5lvh;
+        letter-spacing:0lvh;
         text-align: right;
     }
 
@@ -217,27 +217,27 @@
         transform: rotate(5.25deg);
 
         text-decoration:none;
-        left: calc(65dvh);
-        top:25dvh;
+        left: calc(65lvh);
+        top:25lvh;
         color:#fcf8da;
     
-        font-size: 2.25dvh;
+        font-size: 2.25lvh;
         
         text-align: right;
     }
 
     .grid{
         display: grid;
-        grid-template-columns: 75dvw;
-        gap: 15dvh;
-         margin-top:53dvh;
-        @media screen and (max-height: 70.098dvw) {
-            grid-template-columns: 33dvw 50dvw;
-            gap: 20dvh 10dvh;
-            margin-top:50dvh;
+        grid-template-columns: 75lvw;
+        gap: 15lvh;
+         margin-top:53lvh;
+        @media screen and (max-height: 70.098lvw) {
+            grid-template-columns: 33lvw 50lvw;
+            gap: 20lvh 10lvh;
+            margin-top:50lvh;
          }
        
-        margin-left: 10dvh;
+        margin-left: 10lvh;
         place-items: center;
     }
 
@@ -245,16 +245,16 @@
 
    .project{
     display: contents;
-        @media screen and not (max-height: 70.098dvw) {
+        @media screen and not (max-height: 70.098lvw) {
         display: grid;
         justify-items: center;
         }
    }
 
     .project_text{
-        line-height: 4dvh;
+        line-height: 4lvh;
         
-        @media screen and not (max-height: 70.098dvw) {
+        @media screen and not (max-height: 70.098lvw) {
             display: block;
             order:1;
             
@@ -262,65 +262,65 @@
     }
 
     .project_img{  
-        width: 40dvh;
-        height:40dvh;
-        margin-top:5dvh;
+        width: 40lvh;
+        height:40lvh;
+        margin-top:5lvh;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: #2b2b2b;
-        @media screen and not (max-height: 70.098dvw) {
-            width: 50dvh;
-            height:50dvh;
-            margin-top:7dvh;
+        @media screen and not (max-height: 70.098lvw) {
+            width: 50lvh;
+            height:50lvh;
+            margin-top:7lvh;
             order:2;
         }  
     }
 
     img{
         display: block;
-        height: 35dvh;
-        @media screen and not (max-height: 70.098dvw) {
-             height: 45dvh;
+        height: 35lvh;
+        @media screen and not (max-height: 70.098lvw) {
+             height: 45lvh;
          }
          
-        border: 1dvh solid #fcf8da;  
+        border: 1lvh solid #fcf8da;  
    }
 
     .project_title{
-        font-size: 4.0dvh;
+        font-size: 4.0lvh;
         margin: 0;
-        padding-bottom: 1dvh;
+        padding-bottom: 1lvh;
     }
 
     .project_date{
-        font-size: 2.5dvh;
+        font-size: 2.5lvh;
         color:#611800;
         margin:0;
     }
     .project_languages{
-        font-size: 2.5dvh;
+        font-size: 2.5lvh;
         color:#611800;
         margin: 0;
-        padding-bottom: 1dvh;
+        padding-bottom: 1lvh;
     }
 
     .project_description{
-        font-size: 2.25dvh;
+        font-size: 2.25lvh;
         margin: 0;
         
     }
 
     .back{
         width:95%;
-        font-size: 2.5dvh;
+        font-size: 2.5lvh;
         display: block;
         text-align: right;
         color:#ca060a;
         text-decoration:underline;
-        margin-top:10dvh;
-        margin-bottom: 10dvh;
-        margin-right:30dvh;
+        margin-top:10lvh;
+        margin-bottom: 10lvh;
+        margin-right:30lvh;
     }
 
     a{
@@ -328,7 +328,7 @@
     }
 
     hr{
-        border-top:1dvh solid #2b2b2b;
+        border-top:1lvh solid #2b2b2b;
     }
    
     

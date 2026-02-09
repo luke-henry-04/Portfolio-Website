@@ -10,7 +10,7 @@ body{
     background-image: url("../images/background_headers/Final/ProjectPage_Portrait.svg");
     background-position: top center;
 
-    background-size: auto 30vw;
+    background-size: auto 30lvw;
     background-repeat:no-repeat;
    
     background-color: #FCF8DA;
@@ -24,50 +24,50 @@ body{
 #Home{
     
     position:absolute;
-    width:5dvw;
-    height:5dvw;
-    right: 5dvw;
-    top: 40dvw;
+    width:5lvw;
+    height:5lvw;
+    right: 5lvw;
+    top: 40lvw;
  
 }
 
 .project{
-    line-height: 5vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    line-height: 5lvw;
+    margin-left: 10lvw;
+    margin-right: 10lvw;
     
-    margin-top: 40vw;
+    margin-top: 40lvw;
  
 
 }
 
 .project_title{
-    font-size: 5.3vw;
+    font-size: 5.3lvw;
     margin: 0;
-    padding-bottom: 1vw;
+    padding-bottom: 1lvw;
 }
 
 .project_date{
         color:#611800;
-        font-size: 3.2vw;
+        font-size: 3.2lvw;
         margin:0;
 }
 .project_languages{
     color:#611800;
-    font-size: 3.2vw;
+    font-size: 3.2lvw;
     margin: 0;
-    padding-bottom: 10vw;
+    padding-bottom: 10lvw;
 }
 
 .project_description{
-    font-size: 3vw;
+    font-size: 3lvw;
     
     margin: 0;
     
 }
 
 .caption{
-    font-size:3vw;
+    font-size:3lvw;
     display:inline-block;
     margin:0;
     width:100%;
@@ -79,8 +79,8 @@ img{
     display:block;
     text-align:center;
     place-self: center;
-    width: 50vw;
-    max-height:80vw;
+    width: 50lvw;
+    max-height:80lvw;
     margin-top:10px;
 }
 
@@ -92,10 +92,10 @@ img{
 }
 
 .imgCaptionPair{
-    width:50vw;
+    width:50lvw;
 }
 .back{
-    font-size: 3vw;
+    font-size: 3lvw;
     display: inline-block;
     width:100%;
     text-align: right;
@@ -105,7 +105,7 @@ img{
 }
 
 .large{
-    width: calc(min(100vh, 60vw))
+    width: calc(min(100lvh, 60lvw))
 }
 
 a{
@@ -139,58 +139,58 @@ body{
 #Home{
     position:absolute;
     margin-top:0;
-    width:5dvh;
-    height:5dvh;
-    right: 25dvh;
-    top: 5dvh;
+    width:5lvh;
+    height:5lvh;
+    right: 25lvh;
+    top: 5lvh;
     @media (aspect-ratio<1.4088) {
-        right: 5dvh;
+        right: 5lvh;
     }
   
 }
 
 .project{
-    line-height: 5vh;
-    margin-left: 25vh;
-    margin-right: 25vh;
-    @media screen and (max-height: 70.098dvw) {
-    margin-right: 25vh;
+    line-height: 5lvh;
+    margin-left: 25lvh;
+    margin-right: 25lvh;
+    @media screen and (max-height: 70.098lvw) {
+    margin-right: 25lvh;
     }
-    margin-top: 10vh;
+    margin-top: 10lvh;
  
 
 }
 
 .project_title{
-    font-size: 4.5vh;
+    font-size: 4.5lvh;
     margin: 0;
-    padding-bottom: 1vh;
+    padding-bottom: 1lvh;
 }
 
 .project_date{
-    font-size: 2.5vh;
+    font-size: 2.5lvh;
     margin:0;
     color:#611800;
 }
 .project_languages{
-    font-size: 2.5vh;
+    font-size: 2.5lvh;
     margin: 0;
-    padding-bottom: 5vh;
+    padding-bottom: 5lvh;
     color:#611800;
 }
 
 .project_description{
-    font-size: 2.5vh;
+    font-size: 2.5lvh;
     
     margin: 0;
     
 }
 
 .caption{
-    font-size:2.5vh;
+    font-size:2.5lvh;
     display: block;
-    margin-left: calc(50% - 30vh);
-    width:60vh;
+    margin-left: calc(50% - 30lvh);
+    width:60lvh;
     
     text-align: center;
     color:#611800;
@@ -200,8 +200,8 @@ img{
     display:block;
     text-align:center;
     place-self: center;
-    max-width: 60vh;
-    max-height:60vh;
+    max-width: 60lvh;
+    max-height:60lvh;
     margin-top:10px;
 }
 
@@ -213,12 +213,12 @@ img{
 }
 
 .imgCaptionPair{
-    width:60vh;
+    width:60lvh;
 }
 
 
 .back{
-    font-size: 2.5vh;
+    font-size: 2.5lvh;
     display: inline-block;
     width:100%;
     text-align: right;
@@ -228,7 +228,7 @@ img{
 }
 
 .large{
-    max-width: calc(min(100vh, 60vw))
+    max-width: calc(min(100lvh, 60lvw))
 }
 
 a{

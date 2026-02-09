@@ -1,12 +1,12 @@
 @media (aspect-ratio>1.2) {
     body{
-        height: 100svh;
-        width:100svw;
+        height: 100lvh;
+        width:100lvw;
         overflow-x: hidden;
         overflow-y:hidden;
         background-image: url("./images/background_headers/Final/Index_Landscape.svg");
         
-        background-size: auto 100svh;
+        background-size: auto 100lvh;
         background-repeat:no-repeat;
         background-position: center top;
         background-color: #FCF8DA
@@ -26,12 +26,12 @@
 
         color: #2b2b2b;
 
-        line-height: 17svh;
-        letter-spacing: 1svh;
-        left: calc(50svw + 36.5svh);
-        top: 23.5svh;
+        line-height: 17lvh;
+        letter-spacing: 1lvh;
+        left: calc(50lvw + 36.5lvh);
+        top: 23.5lvh;
         margin:0;
-        font-size: 16svh;
+        font-size: 16lvh;
     }
     #henry{  
         
@@ -42,14 +42,14 @@
 
         color: #2b2b2b;
         
-        left: calc(50svw + 26.5svh);
-        top:49svh;
-        letter-spacing: 2svh;
+        left: calc(50lvw + 26.5lvh);
+        top:49lvh;
+        letter-spacing: 2lvh;
         
         margin:0;
         position: absolute;
 
-        font-size: 9.25svh;
+        font-size: 9.25lvh;
         
         text-align: right;
     }
@@ -57,14 +57,14 @@
     #bio{
         
         position: absolute;
-        left:calc(50svw - 58svh);
-        top: 15svh;
-       width:40svh;
+        left:calc(50lvw - 58lvh);
+        top: 15lvh;
+       width:40lvh;
 
-      letter-spacing: 0.1svh;
+      letter-spacing: 0.1lvh;
        line-height: 110%;
         text-align: left;
-        font-size: 2.5svh;
+        font-size: 2.5lvh;
     }
 
     #cs_button{
@@ -74,14 +74,14 @@
         transform: translate(-50%,-50%) rotate(-45deg);
 
         text-decoration:none;
-        left: calc(50svw - 23.5svh);
-        top:77.5svh;
+        left: calc(50lvw - 23.5lvh);
+        top:77.5lvh;
         
         position:absolute;
         
         
         margin:0;
-        font-size: 5.5svh;
+        font-size: 5.5lvh;
         
         text-align: right;
     }
@@ -107,14 +107,14 @@
         transform: translate(-50%,-50%) rotate(-45deg);
 
         text-decoration:none;
-        left: calc(50svw - 10svh);
-        top:88svh;
+        left: calc(50lvw - 10lvh);
+        top:88lvh;
         
         position:absolute;
         
         
         margin:0;
-        font-size: 5.5svh;
+        font-size: 5.5lvh;
         
         text-align: right;
     }
@@ -145,11 +145,11 @@
 
 @media (aspect-ratio<=1.2) {
     body{
-        height: 100svh;
-        width:100svw;
+        height: 100lvh;
+        width:100lvw;
         background-image: url("./images/background_headers/Final/Index_Portrait.svg");
 
-        background-size: 100svw auto;
+        background-size: 100lvw auto;
         background-repeat:no-repeat;
         background-position: left center;
         background-color: #FCF8DA
@@ -169,12 +169,12 @@
 
         color: #2b2b2b;
 
-        line-height: 13svw;
-        letter-spacing: 0.75svw;
-        left: 78.5svw;
-        top:calc(50svh - 10.5svw);
+        line-height: 13lvw;
+        letter-spacing: 0.75lvw;
+        left: 78.5lvw;
+        top:calc(50lvh - 10.5lvw);
         margin:0;
-        font-size: 12svw;
+        font-size: 12lvw;
     }
     #henry{  
         
@@ -185,15 +185,15 @@
 
         color: #2b2b2b;
         
-        left: 71svw;
-        top:calc(50svh + 10svw);
+        left: 71lvw;
+        top:calc(50lvh + 10lvw);
 
-        letter-spacing: 1.8svw;
+        letter-spacing: 1.8lvw;
         
     
         position: absolute;
 
-        font-size:  7svw;
+        font-size:  7lvw;
         margin:0;
         text-align: right;
     }
@@ -201,14 +201,14 @@
      #bio{
         
         position: absolute;
-        left:2svw;
-        top: calc(50svh - 17svw);
-       width:40svw;
+        left:2lvw;
+        top: calc(50lvh - 17lvw);
+       width:40lvw;
 
-      letter-spacing: 0.1svw;
+      letter-spacing: 0.1lvw;
        line-height: 110%;
         text-align: left;
-        font-size: 2svw;
+        font-size: 2lvw;
     }
 
 
@@ -219,14 +219,14 @@
         transform: translate(-50%,-50%) rotate(-45deg);
 
         text-decoration:none;
-        left: 30svw;
-        top: calc(50svh + 33svw);
+        left: 30lvw;
+        top: calc(50lvh + 33lvw);
         
         position:absolute;
         
         
 
-        font-size: 4.75svw;
+        font-size: 4.75lvw;
         margin:0;
         text-align: right;
     }
@@ -253,12 +253,12 @@
         transform: translate(-50%,-50%) rotate(-45deg);
         
         text-decoration:none;
-        left: 40svw;
-        top: calc(50svh + 41svw);
+        left: 40lvw;
+        top: calc(50lvh + 41lvw);
         
         position:absolute;
         
-        font-size: 4.75svw;
+        font-size: 4.75lvw;
         margin:0;
         text-align: right;
     }
