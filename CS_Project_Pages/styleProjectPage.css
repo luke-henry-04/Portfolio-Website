@@ -5,6 +5,7 @@
 
 
 
+
 @media (orientation: portrait) {
 body{
     background-image: url("../images/background_headers/Final/ProjectPage_Portrait.svg");
@@ -79,9 +80,15 @@ body{
 img{
     display:block;
     text-align:center;
-    place-self: center;
+    align-self: center;
+    
     max-width: 50lvw;
     margin-top:10px;
+}
+
+.soloImg{
+    display: block;
+    margin: auto;
 }
 
 .imgGrid{
@@ -152,8 +159,8 @@ body{
 .project{
     line-height: 5lvh;
     margin-left: 25lvh;
-    margin-right: 25lvh;
-    @media (max-height: 70.098lvw) {
+    margin-right: 5vh;
+    @media (aspect-ratio > 1.4088) {
     margin-right: 25lvh;
     }
     margin-top: 10lvh;
@@ -203,6 +210,11 @@ img{
     max-width: 60lvh;
     max-height:60lvh;
     margin-top:10px;
+}
+
+.soloImg{
+    display: block;
+    margin: auto;
 }
 
 .imgGrid{
