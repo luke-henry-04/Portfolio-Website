@@ -6,10 +6,13 @@
 
 #Home{
     position:absolute;
-    left: calc(100lvw - 3*min(3.5lvw,3.5lvh));
+    left: calc(100lvw - 3*min(5lvw,3.5lvh));
     top:0;
-    width: min(3.5lvw,3.5lvh);
-    height:min(3.5lvw,3.5lvh);
+    @media (aspect-ratio<1.43) {
+        top:1lvw;
+    }
+    width: min(5lvw,3.5lvh);
+    height:min(5lvw,3.5lvh);
 }
 
 @media (orientation: portrait) {
@@ -163,7 +166,7 @@
          background-image: url("./images/background_headers/Final/CSPage_Landscape_left.svg");
         background-size: calc(16.5lvw - 10lvh) 45lvh;
         background-position: left top;
-        @media screen and (max-height: 70.098lvw) {
+        @media (aspect-ratio > 1.43) {
             background-image: url("./images/background_headers/Final/CSPage_Landscape_left.svg"), 
             url(./images/background_headers/Final/CSPage_Landscape_right.svg);
             background-size: calc(16.5lvw - 10lvh) 45lvh, auto 45lvh;
@@ -231,7 +234,7 @@
         grid-template-columns: 75lvw;
         gap: 15lvh;
          margin-top:53lvh;
-        @media screen and (max-height: 70.098lvw) {
+        @media (aspect-ratio>1.43){
             grid-template-columns: 33lvw 50lvw;
             gap: 20lvh 10lvh;
             margin-top:50lvh;
@@ -245,7 +248,7 @@
 
    .project{
     display: contents;
-        @media screen and not (max-height: 70.098lvw) {
+        @media (aspect-ratio<1.43) {
         display: grid;
         justify-items: center;
         }
@@ -254,7 +257,7 @@
     .project_text{
         line-height: 4lvh;
         
-        @media screen and not (max-height: 70.098lvw) {
+        @media (aspect-ratio<1.43) {
             display: block;
             order:1;
             
@@ -269,7 +272,7 @@
         justify-content: center;
         align-items: center;
         background-color: #2b2b2b;
-        @media screen and not (max-height: 70.098lvw) {
+        @media (aspect-ratio<1.43) {
             width: 50lvh;
             height:50lvh;
             margin-top:7lvh;
@@ -280,7 +283,7 @@
     img{
         display: block;
         height: 35lvh;
-        @media screen and not (max-height: 70.098lvw) {
+        @media (aspect-ratio<1.43) {
              height: 45lvh;
          }
          
