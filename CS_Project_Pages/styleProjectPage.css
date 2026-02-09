@@ -1,16 +1,8 @@
-.closeImg{
-    width:100%;
-    height:100%;
+#Home{
     background-color: #FCF8DA;
 }
 
-#Home{
-    
-    position:absolute;
-    width: min(3.5dvw,3.5dvh);
-    height:min(3.5dvw,3.5dvh);
-    
-}
+
 
 
 @media (orientation: portrait) {
@@ -18,7 +10,7 @@ body{
     background-image: url("../images/background_headers/Final/ProjectPage_Portrait.svg");
     background-position: top center;
 
-    background-size: 105vw auto;
+    background-size: auto 30vw;
     background-repeat:no-repeat;
    
     background-color: #FCF8DA;
@@ -28,9 +20,15 @@ body{
    
 }
 
+
 #Home{
-    left: calc(100dvw - 3*min(3.5dvw,3.5dvh));
-    top:31vw;
+    
+    position:absolute;
+    width:5dvw;
+    height:5dvw;
+    right: 5dvw;
+    top: 40dvw;
+ 
 }
 
 .project{
@@ -82,7 +80,8 @@ img{
     text-align:center;
     place-self: center;
     width: 50vw;
-    padding-top:10px;
+    max-height:80vw;
+    margin-top:10px;
 }
 
 .imgGrid{
@@ -123,11 +122,11 @@ body{
     background-position: top left;
 
     @media (aspect-ratio>1.4088) {
-         background-image: url("../images/background_headers/Final/ProjectPage_Landscape_Left.svg"),url("../images/background_headers/Final/ProjectPage_Landscape_Right.svg");
+         background-image: url("../images/background_headers/Final/ProjectPage_Landscape_Left.svg") , url("../images/background_headers/Final/ProjectPage_Landscape_Right.svg");
 
          background-position: top left, top right;
     }
-    background-size: 15dvw auto;
+    background-size: 20lvh auto;
     background-repeat:repeat-y;
    
     background-color: #FCF8DA;
@@ -138,19 +137,24 @@ body{
 }
 
 #Home{
-    left: calc(83dvw - 3*min(3.5dvw,3.5dvh));
+    position:absolute;
+    margin-top:0;
+    width:5dvh;
+    height:5dvh;
+    right: 25dvh;
+    top: 5dvh;
     @media (aspect-ratio<1.4088) {
-        left: calc(100dvw - 3*min(3.5dvw,3.5dvh));
+        right: 5dvh;
     }
-    top:0;
+  
 }
 
 .project{
     line-height: 5vh;
-    margin-left: 20vw;
-    margin-right: 5vw;
+    margin-left: 25vh;
+    margin-right: 25vh;
     @media screen and (max-height: 70.098dvw) {
-    margin-right: 20vw;
+    margin-right: 25vh;
     }
     margin-top: 10vh;
  
@@ -184,9 +188,10 @@ body{
 
 .caption{
     font-size:2.5vh;
-    display:inline-block;
-    margin:0;
-    width:100%;
+    display: block;
+    margin-left: calc(50% - 30vh);
+    width:60vh;
+    
     text-align: center;
     color:#611800;
 }
@@ -195,8 +200,9 @@ img{
     display:block;
     text-align:center;
     place-self: center;
-    width: 60vh;
-    padding-top:10px;
+    max-width: 60vh;
+    max-height:60vh;
+    margin-top:10px;
 }
 
 .imgGrid{
@@ -222,7 +228,7 @@ img{
 }
 
 .large{
-    width: calc(min(100vh, 60vw))
+    max-width: calc(min(100vh, 60vw))
 }
 
 a{
